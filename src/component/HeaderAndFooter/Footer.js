@@ -34,7 +34,7 @@ function Footer(props) {
     </div>
   </div>
   <img className='background2' src={background}></img>
-  <p className='text-center'>@Copyright 2024 - Ryan sport club</p>
+  <p className='end'>@Copyright 2024 - Ryan sport club</p>
 </div>
         </div>
     );
