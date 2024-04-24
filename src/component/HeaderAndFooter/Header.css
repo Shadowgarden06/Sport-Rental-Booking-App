@@ -14,8 +14,9 @@ padding: 15px;
 .background2
 {
     height: 5%;
-    width: 10%;
+    width: 5%;
     margin: 15px 15px;
+    margin-left: 50px;
     border-radius: 50%;
     left: 0;
 }
@@ -66,8 +67,16 @@ padding: 15px;
     padding: 10px 30px;
 }
 .footer{
-    margin-top: 5%;
-    background-color: rgb(229, 226, 222);
+    
+    background-color: rgb(234, 230, 226);
     width: 100%;
     padding: auto;
+}
+.row{
+    margin-left: 250px;
+    padding-top: 100px;
+}
+.end{
+    text-align: center;
+    padding-bottom: 10px;
 }
