@@ -1,23 +1,26 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './component/HeaderAndFooter/Header';
+import Bar from './component/HomePageComponent/Bar';
+import Item from './component/HomePageComponent/Item';
+import Image from './component/HomePageComponent/Image';
+import ChangeImg from './component/HomePageComponent/ChangeImg'
+import Describe from './component/HomePageComponent/Describe';
+import Footer from './component/HeaderAndFooter/Footer';
+import { useState } from 'react';
 
 function App() {
+  const [count,setCount]=useState(2);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header></Header>
+      <Bar></Bar>
+      <Item></Item>
+      <h1 className="text-center p-3">GET MOTIVATED. JOIN A CLUB.</h1>
+      <Image count={count}></Image>
+      <ChangeImg count={count} setCount={setCount}></ChangeImg>
+      <Describe></Describe>
+      <Footer></Footer>
     </div>
   );
 }

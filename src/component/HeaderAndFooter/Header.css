@@ -1,0 +1,73 @@
+.picture{
+    background-image: url(logo192.png) no-repeat center fixed;
+background-position: right bottom, left top;
+background-repeat: no-repeat, repeat;
+padding: 15px;
+
+}
+.background1
+{
+    height: 100%;
+    width: 10%;
+    left: 0;
+}
+.background2
+{
+    height: 5%;
+    width: 10%;
+    margin: 15px 15px;
+    border-radius: 50%;
+    left: 0;
+}
+.uppercase{
+    text-transform: uppercase;
+    font-family: 'Brush Script MT', cursive;
+    font-weight: 900;
+    font-size: 100px;
+}
+.uppercase-2{
+    text-transform: uppercase;
+    font-family: Georgia, serif;
+    font-weight: 900;
+    font-size: 50px;
+}
+.discr{
+    justify-content: center;
+    margin-top: 100px;
+}
+.background
+{
+    background-image: url(./messi-inter-miami-sporting-kc2-removebg-preview.png),url(./nynnzoeryrhzwnghbtkk-removebg.png);
+    background-size: 780px;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat;
+    text-align: center;
+    justify-content: center;
+    padding: 15px;
+    height: 480px;
+    margin-top: 30px;
+}
+.nav-logo
+{
+    font-size: 42px;
+    font-weight: 500;
+}
+.nav-item
+{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 25px;
+    gap: 45px;
+}
+.nav-login{
+    border-radius: 50px;
+    background-color: aqua;
+    padding: 10px 30px;
+}
+.footer{
+    margin-top: 5%;
+    background-color: rgb(229, 226, 222);
+    width: 100%;
+    padding: auto;
+}
