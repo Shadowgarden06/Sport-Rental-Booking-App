@@ -13,12 +13,12 @@ function Header(props) {
             <div className="nav-item">
             <img className='background1'src={background} alt=''></img>
             <h1 className="fw-bold">Ryan sport club</h1>
-          <a class="nav-link active" href="/">Indoor Sport</a>
-          <a class="nav-link active" href="/create">Outdoor Sport</a>
-          <a class="nav-link active" href="/edit">Facility your event</a>
-          <a class="nav-link active" href="/list">About us</a>
+          <a class="nav-link active nav-header" href="/indoor">Indoor Sport</a>
+          <a class="nav-link active nav-header" href="/outdoor">Outdoor Sport</a>
+          <a class="nav-link active nav-header" href="/event">Facility your event</a>
+          <a class="nav-link active nav-header" href="/about">About us</a>
           <div className='nav-login'>
-             <a class="nav-link active" href="/list">Login</a>
+             <a class="nav-link active" href="/login">Login</a>
           </div>
          
             </div>

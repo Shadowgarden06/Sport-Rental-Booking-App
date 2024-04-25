@@ -8,19 +8,16 @@ import ChangeImg from './component/HomePageComponent/ChangeImg'
 import Describe from './component/HomePageComponent/Describe';
 import Footer from './component/HeaderAndFooter/Footer';
 import { useState } from 'react';
+import { Routes,Route } from 'react-router-dom';
+import HomePage from './page/HomePage';
 
 function App() {
   const [count,setCount]=useState(2);
   return (
     <div className="App">
-      <Header></Header>
-      <Bar></Bar>
-      <Item></Item>
-      <h1 className="text-center p-3">GET MOTIVATED. JOIN A CLUB.</h1>
-      <Image count={count}></Image>
-      <ChangeImg count={count} setCount={setCount}></ChangeImg>
-      <Describe></Describe>
-      <Footer></Footer>
+      <Routes>
+        <Route element={<HomePage/>} path='/'/>
+      </Routes>
     </div>
   );
 }

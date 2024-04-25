@@ -5,6 +5,18 @@ background-repeat: no-repeat, repeat;
 padding: 15px;
 
 }
+.nav-header{
+    text-decoration: none;
+}
+.nav-header:hover{
+    text-decoration: none;
+    color: aqua;
+}
+
+.nav-login:hover{
+    text-decoration: none;
+    background-color: rgb(216, 154, 21);
+}
 .background1
 {
     height: 100%;
@@ -62,9 +74,10 @@ padding: 15px;
     gap: 45px;
 }
 .nav-login{
+    text-decoration: none;
     border-radius: 50px;
     background-color: aqua;
-    padding: 10px 30px;
+    padding: 20px 30px;
 }
 .footer{
     
@@ -79,4 +92,10 @@ padding: 15px;
 .end{
     text-align: center;
     padding-bottom: 10px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
 }
