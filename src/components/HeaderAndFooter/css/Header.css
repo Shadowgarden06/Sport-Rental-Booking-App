@@ -1,30 +1,27 @@
-.picture{
-    background-image: url(logo192.png) no-repeat center fixed;
-background-position: right bottom, left top;
-background-repeat: no-repeat, repeat;
-padding: 15px;
-
+.picture {
+    background-image: url('../img/logo192.png') no-repeat center fixed;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    padding: 15px;
 }
-.nav-header{
+.nav-header {
     text-decoration: none;
 }
-.nav-header:hover{
+.nav-header:hover {
     text-decoration: none;
     color: aqua;
 }
 
-.nav-login:hover{
+.nav-login:hover {
     text-decoration: none;
     background-color: rgb(216, 154, 21);
 }
-.background1
-{
+.background1 {
     height: 100%;
     width: 10%;
     left: 0;
 }
-.background2
-{
+.background2 {
     height: 5%;
     width: 5%;
     margin: 15px 15px;
@@ -32,25 +29,25 @@ padding: 15px;
     border-radius: 50%;
     left: 0;
 }
-.uppercase{
+.uppercase {
     text-transform: uppercase;
     font-family: 'Brush Script MT', cursive;
     font-weight: 900;
     font-size: 100px;
 }
-.uppercase-2{
+.uppercase-2 {
     text-transform: uppercase;
     font-family: Georgia, serif;
     font-weight: 900;
     font-size: 50px;
 }
-.discr{
+.discr {
     justify-content: center;
     margin-top: 100px;
 }
-.background
-{
-    background-image: url(./messi-inter-miami-sporting-kc2-removebg-preview.png),url(./nynnzoeryrhzwnghbtkk-removebg.png);
+.background {
+    background-image: url('../img/messi-inter-miami-sporting-kc2-removebg-preview.png'),
+        url('../img/nynnzoeryrhzwnghbtkk-removebg.png');
     background-size: 780px;
     background-position: right bottom, left top;
     background-repeat: no-repeat;
@@ -60,42 +57,39 @@ padding: 15px;
     height: 480px;
     margin-top: 30px;
 }
-.nav-logo
-{
+.nav-logo {
     font-size: 42px;
     font-weight: 500;
 }
-.nav-item
-{
+.nav-item {
     display: flex;
     align-items: center;
     list-style: none;
     font-size: 25px;
     gap: 45px;
 }
-.nav-login{
+.nav-login {
     text-decoration: none;
     border-radius: 50px;
     background-color: aqua;
     padding: 20px 30px;
 }
-.footer{
-    
+.footer {
     background-color: rgb(234, 230, 226);
     width: 100%;
     padding: auto;
 }
-.row{
+.row {
     margin-left: 250px;
     padding-top: 100px;
 }
-.end{
+.end {
     text-align: center;
     padding-bottom: 10px;
 }
-a{
+a {
     text-decoration: none;
 }
-a:hover{
+a:hover {
     text-decoration: underline;
 }

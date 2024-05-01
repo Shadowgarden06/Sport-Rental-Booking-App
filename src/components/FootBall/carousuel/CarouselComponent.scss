@@ -1,0 +1,27 @@
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/variables-dark";
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/utilities";
+@import "bootstrap/scss/utilities/api";
+
+.mb-300 {
+    margin-bottom: 300px;
+}
+
+.top-20 {
+    top: 20%;
+}
+
+.start-20 {
+    left: 20%;
+}
+
+.fs-78 {
+    font-size: 78px;
+}
+
+.w-700 {
+    width: 700px;
+}

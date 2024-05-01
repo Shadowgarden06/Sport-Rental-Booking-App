@@ -1,25 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
-import Header from './component/HeaderAndFooter/Header';
-import Bar from './component/HomePageComponent/Bar';
-import Item from './component/HomePageComponent/Item';
-import Image from './component/HomePageComponent/Image';
-import ChangeImg from './component/HomePageComponent/ChangeImg'
-import Describe from './component/HomePageComponent/Describe';
-import Footer from './component/HeaderAndFooter/Footer';
-import { useState } from 'react';
-import { Routes,Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import HomePage from './page/HomePage';
+import BasketBall from './page/BasketBall';
+import BaseBall from './page/BaseBall';
+import Badminton from './page/Badminton';
+import Football from './page/Football';
 
 function App() {
-  const [count,setCount]=useState(2);
-  return (
-    <div className="App">
-      <Routes>
-        <Route element={<HomePage/>} path='/'/>
-      </Routes>
-    </div>
-  );
+    // const [count, setCount] = useState(2);
+    return (
+        <div className='App'>
+            <Routes>
+                <Route element={<HomePage />} path='/' />
+                <Route element={<BasketBall />} path='/basketball' />
+                <Route element={<BaseBall />} path='/baseball' />
+                <Route element={<Badminton />} path='/badminton' />
+                <Route element={<Football />} path='/football' />
+            </Routes>
+        </div>
+    );
 }
 
 export default App;
