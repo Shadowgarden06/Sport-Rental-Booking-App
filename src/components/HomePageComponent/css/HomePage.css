@@ -1,40 +1,35 @@
-.bg-Bar{
+.bg-Bar {
     background-color: rgb(19, 19, 76);
     background-size: 100%;
     color: rgb(249, 237, 222);
     text-align: center !important;
     width: 100%;
 }
-.bg-detail{
+.bg-detail {
     border-radius: 10px;
     background: rgb(136, 136, 233);
- 
+
     width: 30%;
-  
 }
-.item
-{
+.item {
     align-items: center;
     text-align: center;
     margin-bottom: 15px;
 }
-.text{
+.text {
     text-decoration: underline overline;
-    
 }
-.hinh_anh
-{
+.hinh_anh {
     width: 75%;
     height: 600px;
     align-items: center;
     display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 10px;
-  border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border-radius: 50px;
 }
-.court_open
-{
+.court_open {
     width: 500px;
     height: 100px;
     display: block;
@@ -42,8 +37,8 @@
     margin-right: auto;
     border-radius: 50px;
 }
-.describe{
-    background-image: url(./hinh.jpg);
+.describe {
+    background-image: url('../img/hinh.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
     justify-content: center;
@@ -53,14 +48,14 @@
     width: 100%;
     margin-top: 30px;
 }
-.textDe{
+.textDe {
     margin-top: 150px;
     justify-content: center;
     color: rgb(248, 249, 249);
     text-align: center;
     font-weight: 700;
 }
-.textDe2{
+.textDe2 {
     margin-top: 10px;
     font-weight: 700;
     text-shadow: 10cap;
