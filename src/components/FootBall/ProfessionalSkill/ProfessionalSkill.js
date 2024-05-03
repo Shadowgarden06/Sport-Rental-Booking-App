@@ -1,5 +1,4 @@
 import React from 'react';
-import home from '../../../assets/img/home.png';
 import './ProfessionalSkill.scss';
 
 function ProfessionalSkill(props) {
