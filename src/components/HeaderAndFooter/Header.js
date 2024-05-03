@@ -21,7 +21,7 @@ function Header(props) {
                             <a className='nav-link active nav-header' href='/event'>
                                 Facility your event
                             </a>
-                            <a className='nav-link active nav-header' href='/about'>
+                            <a className='nav-link active nav-header' href='/contact'>
                                 About us
                             </a>
                             <div className='nav-login'>

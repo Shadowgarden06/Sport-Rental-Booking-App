@@ -5,6 +5,7 @@ import BasketBall from './page/BasketBall';
 import BaseBall from './page/BaseBall';
 import Badminton from './page/Badminton';
 import Football from './page/Football';
+import ContactUs from './page/ContactUs';
 
 function App() {
     // const [count, setCount] = useState(2);
@@ -16,6 +17,8 @@ function App() {
                 <Route element={<BaseBall />} path='/baseball' />
                 <Route element={<Badminton />} path='/badminton' />
                 <Route element={<Football />} path='/football' />
+                <Route element={<ContactUs />} path='/contact' />
+                
             </Routes>
         </div>
     );

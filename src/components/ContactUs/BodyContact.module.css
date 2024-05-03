@@ -1,0 +1,9 @@
+.e{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 40px;
+    margin: 30px;
+   
+   
+}

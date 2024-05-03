@@ -61,7 +61,7 @@ function Footer(props) {
                         <h3 className='fw-bold'>General Info</h3>
                         <ul>
                             <li>
-                                <a href='/about' className='text-dark'>
+                                <a href='/contact' className='text-dark'>
                                     About us
                                 </a>
                             </li>
