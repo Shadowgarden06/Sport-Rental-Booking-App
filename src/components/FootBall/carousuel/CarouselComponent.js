@@ -93,7 +93,7 @@ function CarouselComponent(props) {
                 <button
                     className='carousel-control-prev'
                     type='button'
-                    data-bs-target='#carouselExample'
+                    data-bs-target='#carouselExampleInterval'
                     data-bs-slide='prev'
                 >
                     <span className='carousel-control-prev-icon' aria-hidden='true'></span>
@@ -103,7 +103,7 @@ function CarouselComponent(props) {
                 <button
                     className='carousel-control-next'
                     type='button'
-                    data-bs-target='#carouselExample'
+                    data-bs-target='#carouselExampleInterval'
                     data-bs-slide='next'
                 >
                     <span className='carousel-control-next-icon' aria-hidden='true'></span>
