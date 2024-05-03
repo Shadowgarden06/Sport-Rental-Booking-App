@@ -12,7 +12,7 @@ function ContactUs(props) {
     return (
         <div 
         style={{backgroundImage:`url("https://live.staticflickr.com/1962/45001551371_54fd57b714_h.jpg")`, backgroundSize:'cover'}}>
-            <Header/>
+            {/* <Header/> */}
           <HeadingContact/>
           <BodyContact/>
           <button onClick={()=>setShowForm(!showForm)}>Send Message</button>
