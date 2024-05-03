@@ -6,7 +6,7 @@ function ProfessionalSkill(props) {
     return (
         <div className='container z-1 d-grid bg-light position-absolute top-100 rp-shadow rounded-end-4'>
             <div>
-                <div>
+                <div className='d-flex justify-content-evenly'>
                     <div>
                         <span className='d-block text-uppercase'>Professional Stuff</span>
                         <span className='fs-48 text-uppercase '>
