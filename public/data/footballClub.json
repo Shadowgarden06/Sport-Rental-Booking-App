@@ -1,0 +1,36 @@
+[
+    {
+        "stadium": "home",
+        "image": "https://oxigeno.bold-themes.com/soccer/wp-content/uploads/sites/3/2017/10/races_logo_01.png",
+        "name": "Jumper Kids",
+        "date": "Mon, Oct 21"
+    },
+
+    {
+        "stadium": "home",
+        "image": "https://oxigeno.bold-themes.com/soccer/wp-content/uploads/sites/3/2017/10/races_logo_02.png",
+        "name": "Ohio Clippers",
+        "date": "Fri, Nov 03"
+    },
+
+    {
+        "stadium": "home",
+        "image": "https://oxigeno.bold-themes.com/soccer/wp-content/uploads/sites/3/2017/10/races_logo_03.png",
+        "name": "Bun Bury",
+        "date": "Wed, Nov 08"
+    },
+
+    {
+        "stadium": "home",
+        "image": "https://oxigeno.bold-themes.com/soccer/wp-content/uploads/sites/3/2017/10/races_logo_04.png",
+        "name": "Virginia Team",
+        "date": "Tue, Nov 14"
+    },
+
+    {
+        "stadium": "home",
+        "image": "https://oxigeno.bold-themes.com/soccer/wp-content/uploads/sites/3/2017/10/races_logo_05.png",
+        "name": "Colorado Bull",
+        "date": "Thurs, Nov 23"
+    }
+]

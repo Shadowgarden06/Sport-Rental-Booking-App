@@ -6,7 +6,7 @@
 @import "bootstrap/scss/utilities";
 @import "bootstrap/scss/utilities/api";
 
-.parallax {
+.parallax1 {
     position: relative;
     height: 140vh;
     overflow: hidden;
@@ -24,29 +24,35 @@
     font-size: 13px
 }
 
-.parallax-bg {
+.fs-60 {
+    font-size: 60px;
+}
+
+.parallax-bg1 {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 140vh;
-    background-image: url('https://oxigeno.bold-themes.com/soccer/wp-content/uploads/sites/3/2017/10/inner_grey_background.jpg');
+    background-image: url('https://oxigeno.bold-themes.com/soccer/wp-content/uploads/sites/3/2017/10/inner_white_background.jpg');
     background-size: cover;
-    // background-position: center;
+    background-position: center;
     // transform: translateY(-50%);
 }
 
-.parallax-content {
+.parallax-content1 {
     position: relative;
     z-index: 1;
-    margin-top: 200px;
+    margin-top: 100px;
     padding: 50px;
     text-align: center;
 }
 
-.schedule-img {
-    width: 107px;
-    height: 107px;
+.about-img {
+    width: 292px;
+    height: 220px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 
@@ -66,4 +72,44 @@
 
 .box-day {
     height: 25px;
+}
+
+.w-580 {
+    width: 580px;
+}
+
+.ms-8 {
+    margin-left: 6rem;
+}
+
+.me-100 {
+    margin-right: 100px;
+}
+
+.mt-9 {
+    margin-top: 7rem;
+}
+
+.about-btn {
+    width: 120px;
+    height: 42px;
+}
+
+.box-about {
+    width: 250px;
+    height: 371px;
+    place-items: center;
+}
+
+.icon-circle {
+    top: 180px;
+    left: 0;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+.icon-circle-size {
+    width: 40px;
+    height: 40px;
+    padding: 9px;
 }
