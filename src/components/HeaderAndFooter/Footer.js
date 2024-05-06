@@ -1,6 +1,6 @@
 import React from 'react';
 import background from './img/background.png';
-import './css/Header.css';
+import '../HeaderAndFooter/css/Header.css';
 
 function Footer(props) {
     return (
