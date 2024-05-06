@@ -1,5 +1,5 @@
 import React from 'react';
-import './css/HomePage.css';
+import '../HomePageComponent/css/HomePage.css';
 function Bar(props) {
     return (
         <div className='bg-Bar'>

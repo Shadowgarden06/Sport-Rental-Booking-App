@@ -1,9 +1,9 @@
 import React from 'react';
-import basketball from './img/tải xuống (1).jpg';
-import './css/HomePage.css';
-import badminton from './img/Link 8.jpg';
-import baseball from './img/Indoor Batting Cages for Baseball & Softball _ On Deck Sports.jpg';
-import football from './img/Football.jpg';
+import basketball from '../HomePageComponent/img/tải xuống (1).jpg';
+import '../HomePageComponent/css/HomePage.css';
+import badminton from '../HomePageComponent/img/Link 8.jpg';
+import baseball from '../HomePageComponent/img/Indoor Batting Cages for Baseball & Softball _ On Deck Sports.jpg';
+import football from '../HomePageComponent/img/Football.jpg';
 function Image({ count }) {
     if (count === 0) {
         return <img src={basketball} className='hinh_anh' alt='basketball' />;

@@ -1,12 +1,12 @@
 import React from 'react';
-import './css/Header.css';
+import '../HeaderAndFooter/css/Header.css';
 import background from './img/background.png';
 import HeaderBack from './HeaderBack';
 
 function Header(props) {
     return (
         <header>
-            <nav className='navbar navbar-expand-sm bg-light navbar-light'>
+            <nav className='navbar navbar-expand-sm navbar-light footer'>
                 <div className='container-fluid'>
                     <form className='d-flex'>
                         <div className='nav-item'>
