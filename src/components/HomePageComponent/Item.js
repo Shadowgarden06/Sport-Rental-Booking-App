@@ -10,11 +10,11 @@ import {
 } from '@mui/material';
 import React from 'react';
 // import background from './img/background.png';
-import basketball from './img/66a35bcb-258b-43c2-a1cc-5fa9d6d987bf.jpg';
-import baseball from './img/Baseball Field.jpg';
-import badminton from './img/Badminton.jpg';
-import football from './img/What Is A Fullback In Soccer_ What You Should Know In 2022.jpg';
-import './css/HomePage.css';
+import basketball from '../HomePageComponent/img/66a35bcb-258b-43c2-a1cc-5fa9d6d987bf.jpg';
+import baseball from '../HomePageComponent/img/Baseball Field.jpg';
+import badminton from '../HomePageComponent/img/Badminton.jpg';
+import football from '../HomePageComponent/img/What Is A Fullback In Soccer_ What You Should Know In 2022.jpg';
+import '../HomePageComponent/css/HomePage.css';
 import { useNavigate } from 'react-router-dom';
 
 function Item(props) {

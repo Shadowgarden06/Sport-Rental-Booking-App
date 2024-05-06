@@ -5,7 +5,7 @@ function Schedule(props) {
     const [footballClubs, setFootballClubs] = useState([]);
 
     useEffect(() => {
-        fetch('./data/footballClub.json')
+        fetch('./data/football/footballClub.json')
             .then((res) => res.json())
             .then((data) => setFootballClubs(data));
     }, []);

@@ -1,5 +1,5 @@
 import React from 'react';
-import './css/Header.css';
+import '../HeaderAndFooter/css/Header.css';
 import background from './img/background.png';
 
 function HeaderBack(props) {
@@ -10,7 +10,6 @@ function HeaderBack(props) {
                 <p className='uppercase-2'>Play any sport, right here!.</p>
                 <p className='text-uppercase fs-1'>Choose the dome!.</p>
             </div>
-            <img src={background} alt='' />
         </div>
     );
 }
