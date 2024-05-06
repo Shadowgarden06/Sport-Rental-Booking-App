@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Schedule.scss';
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
 
 function Schedule(props) {
     const [footballClubs, setFootballClubs] = useState([]);
@@ -10,28 +12,56 @@ function Schedule(props) {
             .then((data) => setFootballClubs(data));
     }, []);
 
+    const responsive = {
+        superLargeDesktop: {
+            breakpoint: { max: 4000, min: 3000 },
+            items: 5
+        },
+        desktop: {
+            breakpoint: { max: 3000, min: 1024 },
+            items: 4
+        },
+        tablet: {
+            breakpoint: { max: 1024, min: 464 },
+            items: 2
+        },
+        mobile: {
+            breakpoint: { max: 464, min: 0 },
+            items: 1
+        }
+    };
+
     return (
         <div className='parallax' id='parallax'>
             <div className='parallax-bg'></div>
             <div className='parallax-content'>
-                <h1>Next Game</h1>
+                <h1 className='fw-bold text-uppercase text-start schedule-mar'>Next Game</h1>
 
-                <ul className='d-flex'>
+                <Carousel responsive={responsive}>
                     {footballClubs.map((item, index) => {
                         return (
-                            <li key={index} className='d-flex'>
-                                <img src={item.image} alt='' />
-                                <div>{item.stadium}</div>
-                                <div>{item.name}</div>
-                                <div>{item.date}</div>
-                            </li>
+                            <div key={index} className='d-flex schedule-mar1'>
+                                <div className='d-flex p-1'>
+                                    <div>
+                                        <img className='schedule-img' src={item.image} alt='' />
+                                    </div>
+
+                                    <div className='p-3'>
+                                        <span className='text-uppercase fs-13 d-block'>
+                                            {item.stadium}
+                                        </span>
+                                        <span className='d-block text-uppercase fw-bold text-primary'>
+                                            {item.name}
+                                        </span>
+                                        <span className='text-uppercase'>{item.date}</span>
+                                    </div>
+                                </div>
+                            </div>
                         );
                     })}
-                </ul>
-                <button>Previous</button>
-                <button>Next</button>
+                </Carousel>
 
-                <div className='d-flex justify-content-around'>
+                <div className='d-flex justify-content-around mt-5'>
                     <div>
                         <div className='ps-3'>
                             <span className='d-block fs-6 text-uppercase text-start'>
