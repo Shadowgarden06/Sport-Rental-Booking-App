@@ -4,7 +4,7 @@ import './Activities.scss';
 function Activities(props) {
     return (
         <div class='container text-center m-0 p-0'>
-            <div class='row p-0 w-100'>
+            <div class='row p-0 activities-box'>
                 <div class='col p-0'>
                     <img
                         src='https://oxigeno.bold-themes.com/soccer/wp-content/uploads/sites/3/2017/11/gallery_02-1280x800.jpg'
@@ -34,7 +34,7 @@ function Activities(props) {
                     />
                 </div>
             </div>
-            <div class='row'>
+            <div class='row activities-box'>
                 <div class='col p-0'>
                     <img
                         src='https://oxigeno.bold-themes.com/soccer/wp-content/uploads/sites/3/2017/11/gallery_05-1280x800.jpg'

@@ -8,6 +8,7 @@ import Header from '../components/HeaderAndFooter/Header';
 import ProfessionalSkill from '../components/FootBall/ProfessionalSkill/ProfessionalSkill';
 import Players from '../components/FootBall/Players/Players';
 import Activities from '../components/FootBall/activities/Activities';
+import Footer from '../components/HeaderAndFooter/Footer';
 
 function Football(props) {
     return (
@@ -21,6 +22,7 @@ function Football(props) {
             <ProfessionalSkill />
             <Players />
             <Activities />
+            <Footer />
         </div>
     );
 }
