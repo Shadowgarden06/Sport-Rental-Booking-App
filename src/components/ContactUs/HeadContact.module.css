@@ -16,7 +16,9 @@
 .banner_it3{
    font-size: 20px;
    font-style: italic;
-   color: #ff99cc;
-   text-shadow: 10px 3px 20px #ff99cc,
-   -2px 10px 30px #ff99cc;
+   color: #fff;
+
+    text-shadow: 3px 3px 20px #ff99cc,
+        -2px 1px 30px #ff99cc;
+    
 }
