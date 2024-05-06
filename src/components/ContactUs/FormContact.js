@@ -95,7 +95,7 @@ function FormContact(props) {
 
                     <div className={holds.form_control}>
                         <label htmlFor="feedback" className={holds.form_lab}>Name</label>
-                        <input type="text" className="form-control" placeholder="full name" name='name'
+                        <input type="text" className="form-control"  name='name'
                             value={formValues.name}
                             onChange={handleChange}
 
@@ -108,7 +108,7 @@ function FormContact(props) {
 
                     <div className={holds.form_control}>
                         <label htmlFor="feedback" className={holds.form_lab}>Email address</label>
-                        <input type="email" className="form-control" placeholder="name@example.com" name='email'
+                        <input type="email" className="form-control"  name='email'
                             value={formValues.email}
                             onChange={handleChange}
 
