@@ -66,47 +66,77 @@ function FormContact(props) {
 
     }
     return (
-        <div className={holds.form_container}>
-            {Object.keys(formErrors).length === 0 && isSubmit ? (<div className='text-info'>Send in successfully</div>) :
-                (<pre>{JSON.stringify(formValues, undefined, 2)}</pre>)
-            }
+        <div className={holds.total_container_form}>
+            <div className={holds.para}>
+                <p class={holds.diagram}>
+                    Hello ,
+                    I want to express my sincere gratitude for taking the time and effort to provide feedback. It means a lot to me and will help me improve and grow in the future.
+                    Your feedback not only helps me understand what I've done well but also gives me insights into areas where I may need to improve. I truly appreciate your honesty and constructive criticism.
+                    If there's anything else you'd like to share or any further questions you have, please don't hesitate to reach out. I'm always willing to listen and learn from others' perspectives.
+                    Once again, thank you so much for your support and feedback.
+                    Best regards,
+                    Ryan Sport Club
+                </p>
+            </div>
 
 
-            <form onSubmit={handleSubmit}>
-                <div className={holds.form_control}>
-                    <label htmlFor="feedback">Name</label>
-                    <input type="text" className="form-control" placeholder="full name" name='name'
-                        value={formValues.name}
-                        onChange={handleChange}
 
-                    />
+
+            <div className={holds.form_container}>
+                {Object.keys(formErrors).length === 0 && isSubmit ? (<div className={holds.successForm}>Send in successfully</div>) :
+                    (<pre >{(formValues, undefined)}</pre>)
+                }
+
+                <div className={holds.content_form}>
+                    <h2>Ryan Sport Club</h2>
+                    <h2>Ryan Sport Club</h2>
                 </div>
-                <p className='text-danger'>{formErrors.name}</p>
+                <form onSubmit={handleSubmit}>
 
-                <div className={holds.form_control}>
-                    <label htmlFor="feedback">Email address</label>
-                    <input type="email" className="form-control" placeholder="name@example.com" name='email'
-                        value={formValues.email}
-                        onChange={handleChange}
-                    />
-                </div>
-                <p className='text-danger'>{formErrors.email}</p>
+                    <div className={holds.form_control}>
+                        <label htmlFor="feedback" className={holds.form_lab}>Name</label>
+                        <input type="text" className="form-control" placeholder="full name" name='name'
+                            value={formValues.name}
+                            onChange={handleChange}
+
+                        />
+                        <i className={holds.form_animation}></i>
 
 
-                <div className={holds.form_control}>
-                    <label htmlFor="exampleFormControlTextarea1">Message</label>
-                    <textarea className="form-control" rows="3" name='message'
-                        value={formValues.message}
-                        onChange={handleChange}
-                    ></textarea>
-                </div>
-                <p className='text-danger'>{formErrors.message}</p>
-                <div className={holds.form_control}>
+                    </div>
+                    <p className='text-danger' id='text1'>{formErrors.name}</p>
 
-                    <button className='btn btn-danger'>Submit</button>
-                </div>
-            </form>
+                    <div className={holds.form_control}>
+                        <label htmlFor="feedback" className={holds.form_lab}>Email address</label>
+                        <input type="email" className="form-control" placeholder="name@example.com" name='email'
+                            value={formValues.email}
+                            onChange={handleChange}
+
+                        />
+                        <i className={holds.form_animation}></i>
+
+                    </div>
+                    <p className='text-danger' id='text1'>{formErrors.email}</p>
+
+
+                    <div className={holds.form_control}>
+                        <label htmlFor="exampleFormControlTextarea1" className={holds.form_lab}>Message</label>
+                        <textarea className="form-control" rows="3" name='message'
+                            value={formValues.message}
+                            onChange={handleChange}
+                        ></textarea>
+                        <i className={holds.form_animation}></i>
+
+                    </div>
+                    <p className='text-danger' id='text1'>{formErrors.message} </p>
+                    <div className={holds.form_control}>
+
+                        <button className='btn btn-danger'>Submit</button>
+                    </div>
+                </form>
+            </div>
         </div>
+
     );
 }
 

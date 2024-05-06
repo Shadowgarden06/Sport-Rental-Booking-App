@@ -8,7 +8,6 @@ function HeadingContact(props) {
             
             <div className={styles.banner_item1}>
                     <h2 className={styles.banner_it1}>CONTACT US</h2>
-                    <h3 className={styles.banner_it2}>Home-Contact </h3>
                     <p className={styles.banner_it3}>
                     <Typewriter
                             options={{
