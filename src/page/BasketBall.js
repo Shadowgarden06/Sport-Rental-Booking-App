@@ -2,7 +2,7 @@ import React from 'react';
 
 function BasketBall(props) {
     return (
-        <div>
+        <div className='Basketball position-absolute'>
             <h1>This is BasketBall</h1>
         </div>
     );
