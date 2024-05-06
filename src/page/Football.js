@@ -6,6 +6,8 @@ import AboutClub from '../components/FootBall/aboutclub/AboutClub';
 import OurAwards from '../components/FootBall/ourAwards/OurAwards';
 import Header from '../components/HeaderAndFooter/Header';
 import ProfessionalSkill from '../components/FootBall/ProfessionalSkill/ProfessionalSkill';
+import Players from '../components/FootBall/Players/Players';
+import Activities from '../components/FootBall/activities/Activities';
 
 function Football(props) {
     return (
@@ -17,6 +19,8 @@ function Football(props) {
             <AboutClub />
             <OurAwards />
             <ProfessionalSkill />
+            <Players />
+            <Activities />
         </div>
     );
 }

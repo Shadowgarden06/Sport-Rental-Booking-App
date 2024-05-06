@@ -1,0 +1,104 @@
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/variables-dark";
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/utilities";
+@import "bootstrap/scss/utilities/api";
+
+
+.parallax4 {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.w-schedule2 {
+    width: 620px;
+}
+
+.fs-10 {
+    font-size: 10px;
+}
+
+.fs-13 {
+    font-size: 13px
+}
+
+.fs-15 {
+    font-size: 15px;
+}
+
+.fs-48 {
+    font-size: 48px;
+}
+
+.mb-8 {
+    margin-bottom: 6rem;
+}
+
+.ms-6 {
+    margin-left: 4rem;
+}
+
+.pt-6 {
+    padding-top: 8rem;
+}
+
+.bg-professional {
+    height: 600px;
+}
+
+.ms-8 {
+    margin-left: 10rem;
+}
+
+.bg-player {
+    height: 580px;
+    background-image: url('https://oxigeno.bold-themes.com/soccer/wp-content/uploads/sites/3/2017/12/home_inner_02.jpg');
+}
+
+
+
+
+.player-img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+}
+
+
+.box-day {
+    height: 25px;
+}
+
+.box-awards {
+    width: 580px;
+    margin-right: 300px;
+}
+
+.next-slide-btn {
+    right: 10%;
+    top: 55%;
+}
+
+.pre-slide-btn {
+    left: 10%;
+    bottom: 30%;
+}
+
+.box-player {
+    width: 790px;
+}
+
+.box-player-des {
+    width: 300px;
+}
+
+.react-multiple-carousel__arrow--left {
+    left: 0;
+}
+
+.react-multiple-carousel__arrow--right {
+    right: 20px;
+}
