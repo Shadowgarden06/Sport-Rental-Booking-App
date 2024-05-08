@@ -6,9 +6,9 @@
 @import "bootstrap/scss/utilities";
 @import "bootstrap/scss/utilities/api";
 
-.parallax1 {
+.parallax7 {
     position: relative;
-    height: 140vh;
+    height: 75vh;
     overflow: hidden;
 }
 
@@ -24,35 +24,42 @@
     font-size: 13px
 }
 
-.fs-60 {
-    font-size: 60px;
+.ms-6 {
+    margin-left: 6rem;
 }
 
-.parallax-bg1 {
+.schedule-mar {
+    margin-left: 6rem;
+}
+
+.schedule-mar1 {
+    margin-left: 2rem;
+}
+
+.parallax-bg7 {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 140vh;
-    background-image: url('https://oxigeno.bold-themes.com/soccer/wp-content/uploads/sites/3/2017/10/inner_white_background.jpg');
+    height: 630px;
+    background-image: url('https://oxigeno.bold-themes.com/basketball/wp-content/uploads/sites/6/2017/10/inner-hero-about-us.jpg');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     // transform: translateY(-50%);
 }
 
-.parallax-content1 {
+.parallax-content7 {
     position: relative;
     z-index: 1;
-    margin-top: 100px;
+    margin-top: 200px;
     padding: 50px;
-    text-align: center;
+    // text-align: center;
 }
 
-.about-img {
-    width: 270px;
-    height: 220px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+.schedule-img {
+    width: 107px;
+    height: 107px;
 }
 
 
@@ -74,42 +81,34 @@
     height: 25px;
 }
 
-.w-580 {
-    width: 580px;
+.mb-300 {
+    margin-bottom: 300px;
 }
 
-.ms-8 {
-    margin-left: 6rem;
+.mt-100 {
+    margin-top: 100px;
 }
 
-.me-100 {
-    margin-right: 100px;
+.bottom-50 {
+    bottom: 50%;
 }
 
-.mt-9 {
-    margin-top: 7rem;
+.start-25 {
+    left: 25%;
 }
 
-.about-btn {
-    width: 120px;
-    height: 42px;
+.fs-78 {
+    font-size: 78px;
 }
 
-.box-about {
-    width: 250px;
-    height: 371px;
-    place-items: center;
+.w-700 {
+    width: 700px;
 }
 
-.icon-circle {
-    top: 180px;
-    left: 10px;
-    border: 1px solid white;
-    padding: 5px;
+.text-orange {
+    color: #ff7f00;
 }
 
-.icon-circle-size {
-    width: 40px;
-    height: 40px;
-    padding: 9px;
+.bot-40 {
+    bottom: 40%;
 }

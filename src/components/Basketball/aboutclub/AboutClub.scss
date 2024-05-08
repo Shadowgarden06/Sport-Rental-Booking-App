@@ -6,14 +6,16 @@
 @import "bootstrap/scss/utilities";
 @import "bootstrap/scss/utilities/api";
 
-.parallax1 {
-    position: relative;
-    height: 140vh;
-    overflow: hidden;
-}
-
 .w-schedule2 {
     width: 620px;
+}
+
+.bottom-9 {
+    bottom: 9%
+}
+
+.p-8 {
+    padding: 6rem;
 }
 
 .fs-10 {
@@ -48,8 +50,8 @@
     text-align: center;
 }
 
-.about-img {
-    width: 270px;
+.about-img1 {
+    width: 292px;
     height: 220px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -101,9 +103,9 @@
     place-items: center;
 }
 
-.icon-circle {
+.icon-circle1 {
     top: 180px;
-    left: 10px;
+    left: 0;
     border: 1px solid white;
     padding: 5px;
 }
@@ -112,4 +114,26 @@
     width: 40px;
     height: 40px;
     padding: 9px;
+}
+
+.final-report1 {
+    height: 100%;
+    width: 100%;
+}
+
+
+.text-redbasket {
+    color: #ff0000;
+}
+
+.text-orange {
+    color: #ff7f00;
+}
+
+.bg-redbasket {
+    background-color: #ff0000;
+}
+
+.border-redbasket {
+    border: 1px solid #ff0000;
 }
