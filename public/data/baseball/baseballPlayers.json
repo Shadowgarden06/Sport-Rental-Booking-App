@@ -1,0 +1,43 @@
+[
+    {
+        "position": "PINCH HITTER",
+        "name": "JOSEPH HALL",
+        "image": "https://oxigeno.bold-themes.com/baseball/wp-content/uploads/sites/7/2017/10/team_member_12.jpg"
+    },
+
+    {
+        "position": "RELIEF PITCHER",
+        "name": "STEVE GARETH",
+        "image": "https://oxigeno.bold-themes.com/baseball/wp-content/uploads/sites/7/2017/10/team_member_11.jpg"
+    },
+
+    {
+        "position": "MIDDLE RELIEVER",
+        "name": "JUAN QUADRA",
+        "image": "https://oxigeno.bold-themes.com/baseball/wp-content/uploads/sites/7/2017/10/team_member_10.jpg"
+    },
+
+    {
+        "position": "CLOSER",
+        "name": "ROBERT CATON",
+        "image": "https://oxigeno.bold-themes.com/baseball/wp-content/uploads/sites/7/2017/10/team_member_09.jpg"
+    },
+
+    {
+        "position": "PINCH RUNNER",
+        "name": "JAMES STRANS",
+        "image": "https://oxigeno.bold-themes.com/baseball/wp-content/uploads/sites/7/2017/10/team_member_07.jpg"
+    },
+
+    {
+        "position": "LONG RELIEVER",
+        "name": "DAVID DAVIS",
+        "image": "https://oxigeno.bold-themes.com/baseball/wp-content/uploads/sites/7/2017/10/team_member_06.jpg"
+    },
+
+    {
+        "postion": "CLOSER",
+        "name": "JOSHUA OLDS",
+        "image": "https://oxigeno.bold-themes.com/baseball/wp-content/uploads/sites/7/2017/10/team_member_05.jpg"
+    }
+]

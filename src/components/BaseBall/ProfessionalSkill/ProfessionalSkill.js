@@ -3,18 +3,18 @@ import './ProfessionalSkill.scss';
 
 function ProfessionalSkill(props) {
     return (
-        <div className='container z-1 d-grid bg-light position-absolute professional1 rp-shadow rounded-4'>
+        <div className='container z-1 d-grid bg-light position-absolute professional3 rp-shadow rounded-4'>
             <div className='d-flex justify-content-around p-5'>
                 <div>
                     <div className='box-about d-flex flex-column position-relative'>
                         <img
-                            src='https://oxigeno.bold-themes.com/basketball/wp-content/uploads/sites/6/2017/10/history_inner_14.jpg'
+                            src='https://thefeather.com/wp-content/uploads/2023/05/20230504-baseball-senior-night-010.jpg'
                             alt=''
                             className='about-img1'
                         />
 
-                        <div className='bg-light position-absolute rounded-circle icon-circle2'>
-                            <span className='d-block rounded-circle bg-redbasket  icon-circle-size1'>
+                        <div className='bg-light position-absolute rounded-circle icon-circle1'>
+                            <span className='d-block rounded-circle bg-baseball  icon-circle-size1'>
                                 <i style={{ color: '#ffffff' }} class='fa-solid fa-medal'></i>
                             </span>
                         </div>
@@ -32,13 +32,13 @@ function ProfessionalSkill(props) {
                 <div>
                     <div className='box-about d-flex flex-column position-relative'>
                         <img
-                            src='https://oxigeno.bold-themes.com/basketball/wp-content/uploads/sites/6/2017/11/home_inner_01.jpg'
+                            src='https://seancochran.com/wp-content/uploads/2015/08/Plyometric-Baseball-Article.jpg'
                             alt=''
                             className='about-img1'
                         />
 
-                        <div className='bg-light position-absolute rounded-circle icon-circle2'>
-                            <span className='d-block rounded-circle bg-redbasket  icon-circle-special'>
+                        <div className='bg-light position-absolute rounded-circle icon-circle1'>
+                            <span className='d-block rounded-circle bg-baseball  icon-circle-special'>
                                 <i
                                     style={{ color: '#ffffff' }}
                                     class='fa-regular fa-clipboard mb-5'
@@ -59,13 +59,13 @@ function ProfessionalSkill(props) {
                 <div>
                     <div className='box-about d-flex flex-column position-relative'>
                         <img
-                            src='https://oxigeno.bold-themes.com/basketball/wp-content/uploads/sites/6/2017/11/home_inner_02.jpg'
+                            src='https://backinmotionsspt.com/wp-content/uploads/2021/04/baseball.png'
                             alt=''
                             className='about-img1'
                         />
 
-                        <div className='bg-light position-absolute rounded-circle icon-circle2'>
-                            <span className='d-block rounded-circle bg-redbasket  icon-circle-size1'>
+                        <div className='bg-light position-absolute rounded-circle icon-circle1'>
+                            <span className='d-block rounded-circle bg-baseball  icon-circle-size1'>
                                 <i style={{ color: '#ffffff' }} class='fa-solid fa-basketball'></i>
                             </span>
                         </div>
@@ -83,13 +83,13 @@ function ProfessionalSkill(props) {
                 <div>
                     <div className='box-about d-flex flex-column position-relative'>
                         <img
-                            src='https://oxigeno.bold-themes.com/basketball/wp-content/uploads/sites/6/2017/11/home_inner_03.jpg'
+                            src='https://i.pinimg.com/236x/2e/49/f8/2e49f877b2ac0f1bbdbf14b81caf177a.jpg'
                             alt=''
                             className='about-img1'
                         />
 
-                        <div className='bg-light position-absolute rounded-circle icon-circle2'>
-                            <span className='d-block rounded-circle bg-redbasket  icon-circle-size1'>
+                        <div className='bg-light position-absolute rounded-circle icon-circle1'>
+                            <span className='d-block rounded-circle bg-baseball  icon-circle-size1'>
                                 <i
                                     style={{ color: '#ffffff' }}
                                     class='fa-solid fa-graduation-cap'
