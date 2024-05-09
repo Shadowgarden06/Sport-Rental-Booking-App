@@ -21,6 +21,16 @@
     width: 10%;
     left: 0;
 }
+
+.background1:hover {
+    cursor: pointer;
+}
+
+.home-name:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
 .background2 {
     height: 5%;
     width: 5%;
