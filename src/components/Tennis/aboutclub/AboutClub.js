@@ -4,7 +4,7 @@ import './AboutClub.scss';
 function AboutClub(props) {
     return (
         <div className='position-relative'>
-            <div className='container z-1 d-grid bg-light position-absolute bottom-2 rp-shadow rounded-end-4'>
+            <div className='container z-1 d-grid bg-light position-absolute bottom-34 rp-shadow rounded-end-4'>
                 <div className='row'>
                     <div className='col p-8 '>
                         <div className='w-580'>
@@ -12,7 +12,7 @@ function AboutClub(props) {
                                 Learn More
                             </span>
                             <span className='d-block text-start text-uppercase fs-60 my-3'>
-                                About <span className='text-redbasket fw-bold'>Club</span>
+                                About <span className='text-green fw-bold'>Club</span>
                             </span>
                             <div className='text-start fs-5 mb-3'>
                                 The Club provides children the opportunity to learn and develop
@@ -35,10 +35,10 @@ function AboutClub(props) {
                             </p>
 
                             <div className='d-flex text-start'>
-                                <button className='btn btn-primary bg-redbasket fs-10 about-btn fw-bold text-uppercase me-4 p-2'>
+                                <button className='btn btn-primary bg-green fs-10 about-btn fw-bold text-uppercase me-4 p-2'>
                                     Join The Club
                                 </button>
-                                <button className='btn btn-white fs-10 about-btn fw-bold text-uppercase p-2 text-redbasket border-redbasket'>
+                                <button className='btn btn-white fs-10 about-btn fw-bold text-uppercase p-2 text-green border-green'>
                                     Learn More
                                 </button>
                             </div>
@@ -47,7 +47,7 @@ function AboutClub(props) {
 
                     <div className='col p-0'>
                         <img
-                            src='https://oxigeno.bold-themes.com/basketball/wp-content/uploads/sites/6/2017/11/inner-vertical-640x640.jpg'
+                            src='https://oxigeno.bold-themes.com/tennis/wp-content/uploads/sites/4/2017/10/inner_service.jpg'
                             alt='final'
                             className='final-report1 rounded-end-4'
                         />
