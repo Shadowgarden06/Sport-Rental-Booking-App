@@ -12,7 +12,7 @@ import React from 'react';
 // import background from './img/background.png';
 import basketball from '../HomePageComponent/img/66a35bcb-258b-43c2-a1cc-5fa9d6d987bf.jpg';
 import baseball from '../HomePageComponent/img/Baseball Field.jpg';
-import badminton from '../HomePageComponent/img/Badminton.jpg';
+import tennis from '../HomePageComponent/img/tennis.avif';
 import football from '../HomePageComponent/img/What Is A Fullback In Soccer_ What You Should Know In 2022.jpg';
 import '../HomePageComponent/css/HomePage.css';
 import { useNavigate } from 'react-router-dom';
@@ -85,7 +85,7 @@ function Item(props) {
                         >
                             <CardContent>
                                 <Typography className='text' component='div' variant='h3'>
-                                    Badminton
+                                    Tennis
                                 </Typography>
                                 <Typography variant='subtitle1' component='div'>
                                     Choose
@@ -95,8 +95,8 @@ function Item(props) {
                         <CardMedia
                             component='img'
                             sx={{ width: 600, height: 300 }}
-                            image={badminton}
-                            alt='badminton'
+                            image={tennis}
+                            alt='tennis'
                         />
                     </Card>
                 </Grid>

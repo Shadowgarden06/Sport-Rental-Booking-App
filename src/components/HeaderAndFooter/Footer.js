@@ -51,8 +51,8 @@ function Footer(props) {
                                 </a>
                             </li>
                             <li>
-                                <a href='/badminton' className='text-dark'>
-                                    Badminton
+                                <a href='/tennis' className='text-dark'>
+                                    Tennis
                                 </a>
                             </li>
                         </ul>

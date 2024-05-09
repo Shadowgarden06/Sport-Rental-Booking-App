@@ -25,7 +25,7 @@ function PlayersBasketball(props) {
                                 id='carousel-ms'
                                 data-bs-interval='3000'
                             >
-                                <div className='d-flex ms-8 flex-column player-box-des'>
+                                <div className='d-flex ms-8basket flex-column player-box-des'>
                                     <div className='player-box-img my-3'>
                                         <img
                                             src='https://oxigeno.bold-themes.com/basketball/wp-content/uploads/sites/6/2017/10/team_member_03.jpg'
@@ -56,7 +56,7 @@ function PlayersBasketball(props) {
                             </div>
 
                             <div class='carousel-item' id='carousel-ms' data-bs-interval='3000'>
-                                <div className='d-flex ms-8 flex-column player-box-des'>
+                                <div className='d-flex ms-8basket flex-column player-box-des'>
                                     <div className='player-box-img my-3'>
                                         <img
                                             src='https://oxigeno.bold-themes.com/basketball/wp-content/uploads/sites/6/2017/10/team_member_09.jpg'
@@ -86,7 +86,7 @@ function PlayersBasketball(props) {
                             </div>
 
                             <div class='carousel-item' id='carousel-ms' data-bs-interval='3000'>
-                                <div className='d-flex ms-8 flex-column player-box-des'>
+                                <div className='d-flex ms-8basket flex-column player-box-des'>
                                     <div className='player-box-img my-3'>
                                         <img
                                             src='https://oxigeno.bold-themes.com/basketball/wp-content/uploads/sites/6/2017/10/team_member_12.jpg'

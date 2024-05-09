@@ -13,7 +13,7 @@ import AboutClub from '../components/Basketball/aboutclub/AboutClub';
 
 function BasketBall(props) {
     return (
-        <div className='Basketball position-relative'>
+        <div className='Basketball'>
             <Header />
             <CarouselComponent />
             <Principles />
