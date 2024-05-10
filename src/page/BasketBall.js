@@ -24,7 +24,9 @@ function BasketBall(props) {
             <Activities />
             <OurAwards />
             <AboutClub />
+            <div className='mt-5'>
             <Footer />
+            </div>
         </div>
     );
 }

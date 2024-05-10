@@ -6,7 +6,7 @@ function OurAwards(props) {
         <div className='parallax9' id='parallax9'>
             <div className='parallax-bg9'></div>
             <div className='parallax-content9 text-white'>
-                <div className='ms-11'>
+                <div className='ms-11 mb-5'>
                     <div className='d-flex justify-content-evenly ryan-number'>
                         <div className='text-start'>
                             <span className='d-block text-start text-uppercase'>

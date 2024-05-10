@@ -24,7 +24,7 @@ function Historyyy(props) {
   </div>
   <div className="col-md-6">
     <label for="inputNumber" className="form-label customForm">Number: </label>
-    <input type="text" className="form-control customForm" id="inputNumber"disabled  value={0+(Infor[Infor.length-1].number )}/>
+    <input type="text" className="form-control customForm" id="inputNumber"disabled  value={"0"+(Infor[Infor.length-1].number )}/>
   </div>
   <div className="col-md-6">
     <label for="inputDate" className="form-label customForm">Signing Date:: </label>
