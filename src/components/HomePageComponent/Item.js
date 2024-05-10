@@ -12,14 +12,11 @@ import React from 'react';
 // import background from './img/background.png';
 import basketball from '../HomePageComponent/img/66a35bcb-258b-43c2-a1cc-5fa9d6d987bf.jpg';
 import baseball from '../HomePageComponent/img/Baseball Field.jpg';
-import badminton from '../HomePageComponent/img/Badminton.jpg';
+import tennis from '../HomePageComponent/img/tennis.avif';
 import football from '../HomePageComponent/img/What Is A Fullback In Soccer_ What You Should Know In 2022.jpg';
 import '../HomePageComponent/css/HomePage.css';
-import { useNavigate } from 'react-router-dom';
 
 function Item(props) {
-    const navigate = useNavigate();
-
     return (
         <div className='item'>
             <Grid container spacing={2} sx={{ marginLeft: 10, marginRight: 10 }}>
@@ -32,45 +29,53 @@ function Item(props) {
                             justifyContent={'center'}
                             alignItems={'center'}
                         >
-                            <CardContent>
-                                <Typography className='text' component='div' variant='h3'>
-                                    Basketball
-                                </Typography>
-                                <Typography variant='subtitle1' component='div'>
-                                    Choose
-                                </Typography>
-                            </CardContent>
+                            <a href='/basketball' className='text-white'>
+                                <CardContent>
+                                    <Typography className='text' component='div' variant='h3'>
+                                        Basketball
+                                    </Typography>
+                                    <Typography variant='subtitle1' component='div'>
+                                        Choose
+                                    </Typography>
+                                </CardContent>
+                            </a>
                         </Box>
-                        <CardMedia
-                            component='img'
-                            sx={{ width: 500, height: 300 }}
-                            image={basketball}
-                            alt='basketball'
-                        />
+                        <a href='/basketball'>
+                            <CardMedia
+                                component='img'
+                                sx={{ width: 500, height: 300 }}
+                                image={basketball}
+                                alt='basketball'
+                            />
+                        </a>
                     </Card>
                 </Grid>
                 <Grid item xs={4}>
                     <Card sx={{ display: 'flex' }} textAlign={'right'}>
-                        <CardMedia
-                            component='img'
-                            sx={{ width: 250, height: 300 }}
-                            image={baseball}
-                            alt='baseball'
-                        />
+                        <a href='/baseball'>
+                            <CardMedia
+                                component='img'
+                                sx={{ width: 250, height: 300 }}
+                                image={baseball}
+                                alt='baseball'
+                            />
+                        </a>
                         <Box
                             className='bg-dark text-light rounded w-75 p-3'
                             sx={{ display: 'flex', flexDirection: 'column' }}
                             justifyContent={'center'}
                             alignItems={'center'}
                         >
-                            <CardContent>
-                                <Typography className='text' component='div' variant='h3'>
-                                    Baseball
-                                </Typography>
-                                <Typography variant='subtitle1' component='div'>
-                                    Choosse
-                                </Typography>
-                            </CardContent>
+                            <a href='/baseball' className='text-white'>
+                                <CardContent>
+                                    <Typography className='text' component='div' variant='h3'>
+                                        Baseball
+                                    </Typography>
+                                    <Typography variant='subtitle1' component='div'>
+                                        Choosse
+                                    </Typography>
+                                </CardContent>
+                            </a>
                         </Box>
                     </Card>
                 </Grid>
@@ -83,31 +88,37 @@ function Item(props) {
                             justifyContent={'center'}
                             alignItems={'center'}
                         >
-                            <CardContent>
-                                <Typography className='text' component='div' variant='h3'>
-                                    Badminton
-                                </Typography>
-                                <Typography variant='subtitle1' component='div'>
-                                    Choose
-                                </Typography>
-                            </CardContent>
+                            <a href='/tennis' className='text-white'>
+                                <CardContent>
+                                    <Typography className='text' component='div' variant='h3'>
+                                        Tennis
+                                    </Typography>
+                                    <Typography variant='subtitle1' component='div'>
+                                        Choose
+                                    </Typography>
+                                </CardContent>
+                            </a>
                         </Box>
-                        <CardMedia
-                            component='img'
-                            sx={{ width: 600, height: 300 }}
-                            image={badminton}
-                            alt='badminton'
-                        />
+                        <a href='/tennis'>
+                            <CardMedia
+                                component='img'
+                                sx={{ width: 600, height: 300 }}
+                                image={tennis}
+                                alt='tennis'
+                            />
+                        </a>
                     </Card>
                 </Grid>
                 <Grid item xs={6}>
                     <Card sx={{ display: 'flex' }}>
-                        <CardMedia
-                            component='img'
-                            sx={{ width: 500, height: 300 }}
-                            image={football}
-                            alt='football'
-                        />
+                        <a href='/football'>
+                            <CardMedia
+                                component='img'
+                                sx={{ width: 500, height: 300 }}
+                                image={football}
+                                alt='football'
+                            />
+                        </a>
                         <Box
                             className='bg-dark text-light rounded w-100 p-3'
                             sx={{ display: 'flex', flexDirection: 'column' }}
@@ -115,14 +126,16 @@ function Item(props) {
                             justifyContent={'center'}
                             alignItems={'center'}
                         >
-                            <CardContent>
-                                <Typography className='text' component='div' variant='h3'>
-                                    Football
-                                </Typography>
-                                <Typography variant='subtitle1' component='div'>
-                                    Choose
-                                </Typography>
-                            </CardContent>
+                            <a href='/football' className='text-white'>
+                                <CardContent>
+                                    <Typography className='text' component='div' variant='h3'>
+                                        Football
+                                    </Typography>
+                                    <Typography variant='subtitle1' component='div'>
+                                        Choose
+                                    </Typography>
+                                </CardContent>
+                            </a>
                         </Box>
                     </Card>
                 </Grid>

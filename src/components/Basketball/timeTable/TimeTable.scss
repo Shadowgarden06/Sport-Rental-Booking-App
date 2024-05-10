@@ -1,0 +1,90 @@
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/variables-dark";
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/utilities";
+@import "bootstrap/scss/utilities/api";
+
+.parallax8 {
+    position: relative;
+    height: 120vh;
+    overflow: hidden;
+}
+
+.w-schedule2 {
+    width: 620px;
+}
+
+.fs-10 {
+    font-size: 10px;
+}
+
+.fs-13 {
+    font-size: 13px
+}
+
+.fs-65 {
+    font-size: 65px
+}
+
+.parallax-bg8 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110vh;
+    background-image: url('https://oxigeno.bold-themes.com/soccer/wp-content/uploads/sites/3/2017/10/inner_grey_background.jpg');
+    background-size: cover;
+    // background-position: center;
+    // transform: translateY(-50%);
+}
+
+.parallax-content8 {
+    position: relative;
+    z-index: 1;
+    margin-top: 400px;
+    padding: 50px;
+    text-align: center;
+}
+
+.schedule-img {
+    width: 107px;
+    height: 107px;
+}
+
+
+.schedule-img2 {
+    width: 100%;
+    height: 172px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.timetable-box {
+    width: 580px;
+}
+
+.schedule-box {
+    width: 70px;
+    height: 50px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.box-day {
+    height: 25px;
+}
+
+
+.text-redbasket {
+    color: #ff0000;
+}
+
+.text-orange {
+    color: #ff7f00;
+}
+
+.bg-redbasket {
+    background-color: #ff0000;
+}

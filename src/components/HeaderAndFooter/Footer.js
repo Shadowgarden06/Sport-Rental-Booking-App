@@ -1,8 +1,11 @@
 import React from 'react';
-import background from './img/background.png';
+import home from './img/home.png';
 import '../HeaderAndFooter/css/Header.css';
+import { useNavigate } from 'react-router-dom';
 
 function Footer(props) {
+    const navigate = useNavigate();
+
     return (
         <div>
             <div className='footer'>
@@ -51,8 +54,8 @@ function Footer(props) {
                                 </a>
                             </li>
                             <li>
-                                <a href='/badminton' className='text-dark'>
-                                    Badminton
+                                <a href='/tennis' className='text-dark'>
+                                    Tennis
                                 </a>
                             </li>
                         </ul>
@@ -78,7 +81,14 @@ function Footer(props) {
                         </ul>
                     </div>
                 </div>
-                <img className='background2' src={background} alt=''></img>
+                <img
+                    className='background2 home-name'
+                    src={home}
+                    alt=''
+                    onClick={() => {
+                        navigate('/');
+                    }}
+                ></img>
                 <p className='end'>@Copyright 2024 - Ryan sport club</p>
             </div>
         </div>

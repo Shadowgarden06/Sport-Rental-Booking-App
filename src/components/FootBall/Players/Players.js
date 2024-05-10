@@ -41,8 +41,8 @@ function Players(props) {
                         Player <span className='fw-bold'>Testimonials</span>
                     </span>
                     <div>
-                        Oxygen Soccer Club has been hosting over 1,200 players ages 4 to 16 every
-                        year at its Indoor and Outdoor, Recreational and Rep Programs.
+                        Ryan Sport Club has been hosting over 1,200 players ages 4 to 16 every year
+                        at its Indoor and Outdoor, Recreational and Rep Programs.
                     </div>
                 </div>
 
