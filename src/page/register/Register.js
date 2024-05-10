@@ -121,7 +121,7 @@ handleValidate(name, value)
             <form class="row g-3">
             <label htmlFor ="inputEmail4" class="form-label address">Name:</label>
   <div class="col-md-5 address">
-    <input type="text" class="form-control" id="inputFirst" placeholder='First Name *' required name='fname' onChange={handleInput}></input>
+    <input type="text" class="form-control " id="inputFirst" placeholder='First Name *' required name='fname' onChange={handleInput}></input>
     <p className='text-danger'>{errors?.fnameError}</p>
   </div>
   <div class="col-md-5 address">
@@ -136,40 +136,40 @@ handleValidate(name, value)
   <div class="col-8 address">
     <input type="text" class="form-control" id="inputAddress2" placeholder="Street Address Line 2"/>
   </div>
-  <div class="col-md-6">
-    <label htmlFor ="inputCity" class="form-label">City</label>
+  <div class="col-md-5 address">
+    <label htmlFor ="inputCity" class="form-label ">City</label>
     <input type="text" class="form-control" id="inputCity"/>
   </div>
-  <div class="col-md-6">
-    <label for="inputZip" class="form-label">State/Provine</label>
-    <input type="text" class="form-control" id="inputState/Provine"/>
+  <div class="col-md-5 address ">
+    <label for="inputZip" class="form-label ">State/Provine</label>
+    <input type="text" class="form-control " id="inputState/Provine"/>
   </div>
-  <div class="col-md-6">
-    <label htmlFor ="inputPostal/Zipcode" class="form-label">Postal / Zipcode</label>
-    <input type="text" class="form-control" id="inputPostal/Zipcode"/>
+  <div class="col-md-5 address ">
+    <label htmlFor ="inputPostal/Zipcode" class="form-label ">Postal / Zipcode</label>
+    <input type="text" class="form-control " id="inputPostal/Zipcode"/>
   </div>
-  <div class="col-md-6">
-    <label for="inputCountry" class="form-label">Country</label>
-    <input type="text" class="form-control" id="inputCountry"/>
+  <div class="col-md-5 address ">
+    <label for="inputCountry" class="form-label ">Country</label>
+    <input type="text" class="form-control " id="inputCountry"/>
   </div>
   <div class="row-md-5">
-    <label for="inputEmail" class="col-sm-2 col-form-label">Email:</label>
+    <label for="inputEmail" class="col-sm-2 col-form-label address">Email:</label>
     <div class="col-sm-10">
-      <input type="text" class="form-control" id="inputEmail" name='mail' placeholder='Mail *' onChange={handleInput}/>
+      <input type="text" class="form-control address" id="inputEmail" name='mail' placeholder='Mail *' onChange={handleInput}/>
       <p className='text-danger'>{errors?.mailError}</p>
     </div>
   </div>
   <div class="row-md-5">
-    <label for="inputNumber" class="col-sm-2 col-form-label">Number:</label>
+    <label for="inputNumber" class="col-sm-2 col-form-label address">Number:</label>
     <div class="col-sm-10">
-      <input type="number" class="form-control" id="inputNumber" name='number' placeholder='Number *' onChange={handleInput}/>
+      <input type="number" class="form-control address" id="inputNumber" name='number' placeholder='Number *' onChange={handleInput}/>
       <p className='text-danger'>{errors?.numberError}</p>
     </div>
   </div>
   <div class="row-md-5">
-    <label for="inputDate" class="col-sm-2 col-form-label">Signing Date::</label>
+    <label for="inputDate" class="col-sm-2 col-form-label address">Signing Date::</label>
     <div class="col-sm-10">
-      <input type="text" class="form-control" id="inputNumber" value={new Date().toDateString()} disabled name='date'/>
+      <input type="text" class="form-control address" id="inputNumber" value={new Date().toDateString()} disabled name='date'/>
     </div>
   </div>
   <button type="submit" className="submit" onClick={(e)=> onSubmit(e)}>SUBMIT FOR MEMBERSHIP</button>
@@ -184,9 +184,6 @@ handleValidate(name, value)
         </Alert>
       </Snackbar>
 </form>
-
-
- 
             <Footer/>
         </div>
     );
