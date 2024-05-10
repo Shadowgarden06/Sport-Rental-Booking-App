@@ -26,14 +26,17 @@ function Header(props) {
                                     }}
                                 />
                             </div>
-                            <a href='/' className='home-name fw-bold text-black fs-1'>
+                            <a
+                                href='/'
+                                className='home-name fw-bold text-black fs-1 text-uppercase'
+                            >
                                 Ryan Sport Club
                             </a>
-                            <a className='nav-link active nav-header' href='/indoor'>
-                                Indoor Sport
+                            <a className='nav-link active nav-header' href='/sports'>
+                                Sports
                             </a>
-                            <a className='nav-link active nav-header' href='/outdoor'>
-                                Outdoor Sport
+                            <a className='nav-link active nav-header' href='/gallery'>
+                                Gallery
                             </a>
                             <a className='nav-link active nav-header' href='/event'>
                                 Facility your event

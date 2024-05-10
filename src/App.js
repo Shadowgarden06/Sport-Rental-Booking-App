@@ -7,13 +7,17 @@ import Football from './page/Football';
 import ContactUs from './page/ContactUs';
 import Register from './page/register/Register';
 import Tennis from './page/Tennis';
+import BookStadium from './page/BookStadium';
+import Sports from './page/Sports';
 
 function App() {
-    // const [count, setCount] = useState(2);
     return (
         <div className='App'>
             <Routes>
                 <Route element={<HomePage />} path='/' />
+                <Route element={<Sports />} path='/sports'>
+                    <Route element={<BookStadium />} path='bookstadium' />
+                </Route>
                 <Route element={<Register />} path='/register' />
                 <Route element={<BasketBall />} path='/basketball' />
                 <Route element={<BaseBall />} path='/baseball' />
