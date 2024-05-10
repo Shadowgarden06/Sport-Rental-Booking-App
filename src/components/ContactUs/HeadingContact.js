@@ -14,7 +14,7 @@ function HeadingContact(props) {
                                 autoStart: true,
                                 loop: true,
                                 delay: 50,
-                                strings: [" FPT SERVICES. TALK TO REAL PEOPLE WHO ARE READY TO HELP."]
+                                strings: [" RYAN SPORTS CLUB. TALK TO REAL PEOPLE WHO ARE READY TO HELP."]
 
                             }} />
                     </p>
