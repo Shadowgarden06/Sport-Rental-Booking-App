@@ -1,0 +1,55 @@
+.fs-80 {
+    font-size: 80px;
+}
+
+.bg-sports {
+    background-color: #abb8c3;
+}
+
+.text-sports {
+    color: #A2DE03;
+}
+
+.box-banner1 {
+    padding-top: 4rem;
+    padding-left: 6rem;
+    padding-bottom: 5rem;
+    // width: 672px;
+    height: auto;
+    background-color: #dfe7ee;
+}
+
+.sports-img-box {
+    overflow: hidden;
+}
+
+.sports-img-box img {
+    transition: transform 0.3s ease
+}
+
+.sports-img-box:hover img {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+.sports-img-name {
+    left: 20px;
+    bottom: 20px;
+    color: #03ff81;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+
+}
+
+.sports-img-name1 {
+    left: 20px;
+    bottom: 20px;
+    color: #07d6ff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+
+}
+
+.sports-img {
+    width: 400px;
+    height: 300px;
+}
