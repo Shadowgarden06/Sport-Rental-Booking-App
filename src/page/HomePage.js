@@ -10,6 +10,7 @@ import HeaderBack from '../components/HeaderAndFooter/HeaderBack';
 
 function HomePage(props) {
     const [count, setCount] = useState(0);
+
     return (
         <div>
             <Header></Header>
