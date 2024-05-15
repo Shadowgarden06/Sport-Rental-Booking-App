@@ -151,4 +151,39 @@
     transform: translateY(-2px);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
+  @media (max-width: 900px) {
+    .banner_sub_content {
+      grid-template-columns: 1fr; 
+      grid-gap: 10px;
+      margin-top: 20px;
+    }
+  
+    .hot_topic {
+      width: 100%; 
+    }
+  
+    .hot_topic img {
+      width: 100%;
+      border-radius: 15px; 
+    }
+    
+    .hot_topic_content {
+      position: static; 
+      width: 100%; 
+      background-color: transparent; 
+      padding: 10px;
+      border-radius: 0;
+      text-align: left;
+    }
+  
+    .hot_topic_content p {
+      display: block;
+      margin-top: 10px; 
+      line-height: 1.5; 
+    }
+  
+    .hot_topic button {
+      width: 100%;
+    }
+  }
   
