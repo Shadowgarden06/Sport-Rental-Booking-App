@@ -14,6 +14,7 @@ import { useState } from 'react';
 import BookingHistory from './page/BookingHistory';
 import FacilityChild from './page/FacilityChild';
 import FacilityEvent from './page/FacilityEvent';
+import Gallary from './page/Gallary';
 
 function App() {
     const [Infor, setInfor] = useState([]);
@@ -35,6 +36,7 @@ function App() {
                 <Route element={<ContactUs />} path='/contact' />
                 <Route element={<FacilityChild/>} path='/child'/>
                 <Route element={<FacilityEvent/>} path='/event'/>
+                <Route element={<Gallary/>} path = '/gallery'/>
             </Routes>
         </div>
     );
