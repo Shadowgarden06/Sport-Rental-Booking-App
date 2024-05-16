@@ -39,22 +39,22 @@ function Footer(props) {
                         <h3 className='fw-bold'>Sport for everyone</h3>
                         <ul>
                             <li>
-                                <a href='/basketball' className='text-dark'>
+                                <a onClick={()=>navigate('/basketball')} className='text-dark'>
                                     Basketball
                                 </a>
                             </li>
                             <li>
-                                <a href='/football' className='text-dark'>
+                                <a onClick={()=>navigate('/football')} className='text-dark'>
                                     Football
                                 </a>
                             </li>
                             <li>
-                                <a href='/baseball' className='text-dark'>
+                                <a onClick={()=>navigate('/baseball')} className='text-dark'>
                                     Baseball
                                 </a>
                             </li>
                             <li>
-                                <a href='/tennis' className='text-dark'>
+                                <a onClick={()=>navigate('/tennis')} className='text-dark'>
                                     Tennis
                                 </a>
                             </li>
@@ -64,17 +64,13 @@ function Footer(props) {
                         <h3 className='fw-bold'>General Info</h3>
                         <ul>
                             <li>
-                                <a href='/contact' className='text-dark'>
+                                <a onClick={()=>navigate('/contact')} className='text-dark'>
                                     About us
                                 </a>
                             </li>
+                    
                             <li>
-                                <a href='/feedback' className='text-dark'>
-                                    FAQs
-                                </a>
-                            </li>
-                            <li>
-                                <a href='/event' className='text-dark'>
+                                <a onClick={()=>navigate('/event')} className='text-dark'>
                                     Plan Your Event
                                 </a>
                             </li>

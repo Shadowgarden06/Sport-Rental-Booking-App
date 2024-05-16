@@ -102,7 +102,7 @@ const enter = () => {
   </div>
 
   <button type="submit" class="btn btn-primary" onClick={(e)=>onSubmit(e)}>Submit</button>
-  <a href='/signup'> Register</a>
+  <a onClick={()=>navigate("/signup")}> Register</a>
  
 </form>
           <Button sx={{left:'45%',width:100}} className='bg-danger text-white' onClick={handleClose}>Close</Button>

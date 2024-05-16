@@ -10,11 +10,13 @@ import Activities from '../components/BaseBall/activities/Activities';
 import Footer from '../components/HeaderAndFooter/Footer';
 import Header from '../components/HeaderAndFooter/Header';
 import ProfessionalSkill from '../components/BaseBall/ProfessionalSkill/ProfessionalSkill';
+import Login from './SignUp&&Login/Login';
 
 function BaseBall(props) {
     const [baseballClubs, setBaseballClubs] = useState([]);
     const [baseballPlayers, setBaseballPlayers] = useState([]);
-
+    const [open, setOpen] = useState(false);
+    let {showAvatar,setShowAvatar,saveInfo } = props
     useEffect(() => {
         fetch('./data/baseball/baseballClub.json')
             .then((res) => res.json())
@@ -29,7 +31,8 @@ function BaseBall(props) {
 
     return (
         <div className='Baseball position-relative'>
-            <Header />
+            <Login saveInfo={saveInfo} setOpen = {setOpen} open = {open} showAvatar={showAvatar} setShowAvatar={setShowAvatar}/>
+            <Header open={open} setOpen={setOpen} showAvatar={showAvatar} setShowAvatar={setShowAvatar}/>
             <CarouselComponent />
             <GameReport />
             <TimeTable />

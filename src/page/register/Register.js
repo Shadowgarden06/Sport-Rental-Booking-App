@@ -5,12 +5,14 @@ import Footer from '../../components/HeaderAndFooter/Footer';
 import Swal from 'sweetalert2';
 import { useNavigate } from 'react-router-dom';
 import { Alert, Snackbar } from '@mui/material';
+import Login from '../SignUp&&Login/Login';
 
 function Register(props) {
   const navigate = useNavigate()
-  const mail_format= "c";
   const [open, setOpen] = useState(false);
-  let {Infor,setInfor}= props
+  const mail_format= "c";
+  const [open1, setOpen1] = useState(false);
+  let {Infor,setInfor,showAvatar,setShowAvatar,saveInfo}= props
   const [errors, setErrors] = useState({fnameError:"",lnameError:"",addressError:"",mailError:"",numberError:""});
   const [product,setProduct] = useState({ fname:"",lname:"",address:"",mail: "",number:"",date: new Date().toDateString()});
   function handleInput(e)
@@ -92,7 +94,7 @@ handleValidate(name, value)
           let dataSubmit={...product}
           setInfor(pre=>[...pre,dataSubmit]);
           console.log(dataSubmit);
-            navigate("/history")
+            navigate('/')
             Swal.fire('Register Success', '', 'success');
 
 
@@ -102,7 +104,7 @@ handleValidate(name, value)
     })
     }
    else{
-    setOpen(true);
+    setOpen1(true);
    }
     }
 
@@ -111,11 +113,12 @@ handleValidate(name, value)
         return;
       }
   
-      setOpen(false);
+      setOpen1(false);
     };
     return (
         <div>
-            <Header/>
+           <Login saveInfo={saveInfo} setOpen = {setOpen} open = {open} showAvatar={showAvatar} setShowAvatar={setShowAvatar}/>
+           <Header open={open} setOpen={setOpen} showAvatar={showAvatar} setShowAvatar={setShowAvatar}/>
             <h1 className='fw-bolder text-center text-uppercase mt-3 mg-3'>Membership Application</h1>
             <p className='text-center fs-5'>To apply for membership please complete all questions.</p>
             <form class="row g-3">
@@ -173,7 +176,7 @@ handleValidate(name, value)
     </div>
   </div>
   <button type="submit" className="submit" onClick={(e)=> onSubmit(e)}>SUBMIT FOR MEMBERSHIP</button>
-  <Snackbar open={open} autoHideDuration={6000} onClose={handleClose}>
+  <Snackbar open={open1} autoHideDuration={6000} onClose={handleClose}>
         <Alert
           onClose={handleClose}
           severity="error"

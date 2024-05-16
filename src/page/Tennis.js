@@ -9,10 +9,12 @@ import Activities from '../components/Tennis/activities/Activities';
 import Footer from '../components/HeaderAndFooter/Footer';
 import Header from '../components/HeaderAndFooter/Header';
 import ProfessionalSkill from '../components/Tennis/ProfessionalSkill/ProfessionalSkill';
+import Login from './SignUp&&Login/Login';
 
 function Tennis(props) {
     const [tennisPlayers, setTennisPlayers] = useState([]);
-
+    let {showAvatar,setShowAvatar,saveInfo } = props
+    const [open, setOpen] = useState(false);
     useEffect(() => {
         fetch('./data/tennis/tennisPlayers.json')
             .then((res) => res.json())
@@ -21,7 +23,8 @@ function Tennis(props) {
 
     return (
         <div className='Tennis'>
-            <Header />
+           <Login saveInfo={saveInfo} setOpen = {setOpen} open = {open} showAvatar={showAvatar} setShowAvatar={setShowAvatar}/>
+            <Header open={open} setOpen={setOpen} showAvatar={showAvatar} setShowAvatar={setShowAvatar}/>
             <CarouselComponent />
             <ProfessionalSkill />
             <OurAwards />

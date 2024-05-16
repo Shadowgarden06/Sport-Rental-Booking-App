@@ -14,6 +14,7 @@ function HomePage(props) {
     const [count, setCount] = useState(0);
     const {showAvatar,setShowAvatar,setOpen,open,saveInfo} =props
     console.log(saveInfo);
+
     return (
         <div>
             <Login saveInfo={saveInfo} setOpen = {setOpen} open = {open} showAvatar={showAvatar} setShowAvatar={setShowAvatar}/>
