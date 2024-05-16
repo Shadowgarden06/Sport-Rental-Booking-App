@@ -10,19 +10,31 @@ import Historyyy from './page/history/Historyyy';
 import Sports from './page/Sports'
 import Tennis from './page/Tennis'
 import BookStadium from './page/BookStadium'
+import SignUp from './page/SignUp&&Login/SignUp';
 import { useState } from 'react';
+import Login from './page/SignUp&&Login/Login';
+import { Any } from 'react-spring';
+import { string } from 'yup';
+
 
 function App() { 
     const [Infor,setInfor]= useState([])
+    const [showAvatar, setShowAvatar] = useState("")
+    const [open, setOpen] = useState(true);
+    const [saveInfo,setSaveInfo] = useState({mail2: "", pass2: ""})
+    console.log("APP",saveInfo);
     // const [count, setCount] = useState(2);
     return (
        
         <div className='App'>
+       
             <Routes>
-                <Route element={<HomePage />} path='/' />
+            
+                <Route element={<HomePage saveInfo={saveInfo} open={open} setOpen={setOpen} showAvatar={showAvatar} setShowAvatar={setShowAvatar}/>} path='/' />
+                <Route element={<SignUp  saveInfo={saveInfo} setSaveInfo={setSaveInfo}/>} path='/signup' />
                 <Route element={<Register Infor={Infor} setInfor={setInfor}/>} path='/register'/>
                 <Route element={<Historyyy Infor={Infor} setInfor={setInfor}/>} path='/history'/>
-                <Route element={<Sports />} path='/sports'>
+                <Route element={<Sports showAvatar={showAvatar} setShowAvatar={setShowAvatar}/>} path='/sports'>
                 <Route element={<BookStadium />} path='bookstadium' />
                 </Route>
                 <Route element={<Register />} path='/register' />

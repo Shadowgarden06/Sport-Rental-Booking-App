@@ -11,6 +11,7 @@ import Activities from '../components/FootBall/activities/Activities';
 import Footer from '../components/HeaderAndFooter/Footer';
 
 function Football(props) {
+    
     return (
         <div className='Football position-relative'>
             <Header />

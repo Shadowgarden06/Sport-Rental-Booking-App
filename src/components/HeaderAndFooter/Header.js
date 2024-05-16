@@ -1,11 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../HeaderAndFooter/css/Header.css';
 import home from './img/home.png';
 import { useNavigate } from 'react-router-dom';
+import Login from '../../page/SignUp&&Login/Login';
+import { useLocation } from 'react-router-dom';
 
 function Header(props) {
     const navigate = useNavigate();
+    let {setOpen ,showAvatar,setShowAvatar} = props
 
+    // const location = useLocation();
+    // const avatar = location.state?.avatar
+
+    // console.log('avatar.showAvatar', avatar);
     return (
         <header>
             <nav className='navbar navbar-expand-sm navbar-light footer'>
@@ -32,7 +39,7 @@ function Header(props) {
                             >
                                 Ryan Sport Club
                             </a>
-                            <a className='nav-link active nav-header' href='/sports'>
+                            <a className='nav-link active nav-header' onClick={()=>{navigate('/sports')}}>
                                 Sports
                             </a>
                             <a className='nav-link active nav-header' href='/gallery'>
@@ -45,9 +52,9 @@ function Header(props) {
                                 About us
                             </a>
                             <div className='nav-login'>
-                                <a className='nav-link active' href='/login'>
+                                {showAvatar== 1?<span>Mat nguoi</span>:<a className='nav-link active' onClick={()=>setOpen(true)}>
                                     Login
-                                </a>
+                                </a>}
                             </div>
                         </div>
                     </form>
