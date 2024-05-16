@@ -15,8 +15,10 @@ import baseball from '../HomePageComponent/img/Baseball Field.jpg';
 import tennis from '../HomePageComponent/img/tennis.avif';
 import football from '../HomePageComponent/img/What Is A Fullback In Soccer_ What You Should Know In 2022.jpg';
 import '../HomePageComponent/css/HomePage.css';
+import { useNavigate } from 'react-router-dom';
 
 function Item(props) {
+    const navigate =useNavigate()
     return (
         <div className='item'>
             <Grid container spacing={2} sx={{ marginLeft: 10, marginRight: 10 }}>
@@ -29,7 +31,7 @@ function Item(props) {
                             justifyContent={'center'}
                             alignItems={'center'}
                         >
-                            <a href='/basketball' className='text-white'>
+                            <a onClick={()=>navigate('/basketball')} className='text-white'>
                                 <CardContent>
                                     <Typography className='text' component='div' variant='h3'>
                                         Basketball
@@ -40,7 +42,7 @@ function Item(props) {
                                 </CardContent>
                             </a>
                         </Box>
-                        <a href='/basketball'>
+                        <a onClick={()=>navigate('/basketball')}>
                             <CardMedia
                                 component='img'
                                 sx={{ width: 500, height: 300 }}
@@ -52,7 +54,7 @@ function Item(props) {
                 </Grid>
                 <Grid item xs={4}>
                     <Card sx={{ display: 'flex' }} textAlign={'right'}>
-                        <a href='/baseball'>
+                        <a onClick={()=>navigate('/baseball')}>
                             <CardMedia
                                 component='img'
                                 sx={{ width: 250, height: 300 }}
@@ -66,7 +68,7 @@ function Item(props) {
                             justifyContent={'center'}
                             alignItems={'center'}
                         >
-                            <a href='/baseball' className='text-white'>
+                            <a onClick={()=>navigate('/baseball')} className='text-white'>
                                 <CardContent>
                                     <Typography className='text' component='div' variant='h3'>
                                         Baseball
@@ -88,7 +90,7 @@ function Item(props) {
                             justifyContent={'center'}
                             alignItems={'center'}
                         >
-                            <a href='/tennis' className='text-white'>
+                            <a onClick={()=>navigate('/tennis')} className='text-white'>
                                 <CardContent>
                                     <Typography className='text' component='div' variant='h3'>
                                         Tennis
@@ -99,7 +101,7 @@ function Item(props) {
                                 </CardContent>
                             </a>
                         </Box>
-                        <a href='/tennis'>
+                        <a onClick={()=>navigate('/tennis')}>
                             <CardMedia
                                 component='img'
                                 sx={{ width: 600, height: 300 }}
@@ -111,7 +113,7 @@ function Item(props) {
                 </Grid>
                 <Grid item xs={6}>
                     <Card sx={{ display: 'flex' }}>
-                        <a href='/football'>
+                        <a onClick={()=>navigate('/football')}>
                             <CardMedia
                                 component='img'
                                 sx={{ width: 500, height: 300 }}
@@ -126,7 +128,7 @@ function Item(props) {
                             justifyContent={'center'}
                             alignItems={'center'}
                         >
-                            <a href='/football' className='text-white'>
+                            <a onClick={()=>navigate('/football')} className='text-white'>
                                 <CardContent>
                                     <Typography className='text' component='div' variant='h3'>
                                         Football

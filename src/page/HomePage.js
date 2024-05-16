@@ -7,16 +7,21 @@ import ChangeImg from '../components/HomePageComponent/ChangeImg';
 import Describe from '../components/HomePageComponent/Describe';
 import Footer from '../components/HeaderAndFooter/Footer';
 import HeaderBack from '../components/HeaderAndFooter/HeaderBack';
+import Login from './SignUp&&Login/Login';
 
 function HomePage(props) {
+    
     const [count, setCount] = useState(0);
+    const {showAvatar,setShowAvatar,setOpen,open,saveInfo} =props
+    console.log(saveInfo);
 
     return (
         <div>
-            <Header></Header>
+            <Login saveInfo={saveInfo} setOpen = {setOpen} open = {open} showAvatar={showAvatar} setShowAvatar={setShowAvatar}/>
+            <Header setOpen = {setOpen} showAvatar={showAvatar} setShowAvatar={setShowAvatar}/>
             <HeaderBack />
-            <Bar></Bar>
-            <Item></Item>
+            <Bar/>
+            <Item/>
             <h1 className='text-center p-3'>GET MOTIVATED. JOIN A CLUB.</h1>
             <Image count={count}></Image>
             <ChangeImg count={count} setCount={setCount}></ChangeImg>

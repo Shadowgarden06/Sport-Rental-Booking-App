@@ -19,7 +19,7 @@ function Subcribes(props) {
                 <button
                     className='btn bg-success mt-4 w-25 text-white text-uppercase fw-bold'
                     onClick={() => {
-                        navigate('/register');
+                        navigate('/registerMemberShip');
                     }}
                 >
                     Subscribe

@@ -1,18 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Header from '../components/HeaderAndFooter/Header';
 import Footer from '../components/HeaderAndFooter/Footer';
 import ChildEvent from "../components/FacilityEvent/ChildEvent";
 import { useNavigate } from 'react-router-dom';
+import Login from './SignUp&&Login/Login';
 
 function FacilityChild(props) {
     const navigate = useNavigate();
-
+    let {showAvatar,setShowAvatar,saveInfo } = props
+    const [open, setOpen] = useState(false);
     const handleNavigateToEvent = () => {
         navigate('/event'); // Chuyển hướng đến đường dẫn '/DailyEvent' khi nhấn vào mục "Daily Event"
     };
     return (
         <div >
-            <Header/>
+            <Login saveInfo={saveInfo} setOpen = {setOpen} open = {open} showAvatar={showAvatar} setShowAvatar={setShowAvatar}/>
+            <Header open={open} setOpen={setOpen} showAvatar={showAvatar} setShowAvatar={setShowAvatar}/>
             <header className="header_container">
                 <div className="top_head">
                     <div className="web_name">
