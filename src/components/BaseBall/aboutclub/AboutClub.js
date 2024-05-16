@@ -3,7 +3,7 @@ import './AboutClub.scss';
 
 function AboutClub(props) {
     return (
-        <div className='container z-1 d-grid bg-light position-absolute top-35 rp-shadow rounded-end-4'>
+        <div className='z-1 d-grid bg-light position-absolute top-35 rp-shadow rounded-end-4'>
             <div className='row'>
                 <div className='col p-8 '>
                     <div className='w-580'>

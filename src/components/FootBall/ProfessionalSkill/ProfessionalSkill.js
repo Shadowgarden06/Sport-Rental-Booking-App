@@ -3,7 +3,7 @@ import './ProfessionalSkill.scss';
 
 function ProfessionalSkill(props) {
     return (
-        <div className='container z-1 d-grid bg-light position-absolute professional rp-shadow rounded-end-4'>
+        <div className='z-1 d-grid bg-light position-absolute professional rp-shadow rounded-end-4'>
             <div className='ms-11'>
                 <div className='d-flex justify-content-evenly ryan-number'>
                     <div>

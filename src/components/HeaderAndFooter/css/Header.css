@@ -1,21 +1,12 @@
-.picture {
-    background-image: url('../img/logo192.png') no-repeat center fixed;
-    background-position: right bottom, left top;
-    background-repeat: no-repeat, repeat;
-    padding: 15px;
-}
-.nav-header {
+.nav-header1 {
     text-decoration: none;
 }
-.nav-header:hover {
+.nav-header1:hover {
     text-decoration: none;
-    color: aqua;
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
 }
 
-.nav-login:hover {
-    text-decoration: none;
-    background-color: rgb(216, 154, 21);
-}
 .background1 {
     height: 100%;
     width: 10%;
@@ -24,11 +15,15 @@
 
 .background1:hover {
     cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
 }
 
 .home-name:hover {
     cursor: pointer;
     text-decoration: none;
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
 }
 
 .background2 {
@@ -55,6 +50,12 @@
     justify-content: center;
     margin-top: 100px;
 }
+
+.text-headerback {
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+    font-weight: bold;
+}
 .background {
     background-image: url('../img/messi-inter-miami-sporting-kc2-removebg-preview.png'),
         url('../img/nynnzoeryrhzwnghbtkk-removebg.png');
@@ -78,11 +79,20 @@
     font-size: 25px;
     gap: 45px;
 }
+
 .nav-login {
+    text-decoration: none;
+    border-radius: 50px;
+    /* background-color: aqua; */
+    padding: 20px 30px;
+}
+.nav-login:hover {
     text-decoration: none;
     border-radius: 50px;
     background-color: aqua;
     padding: 20px 30px;
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
 }
 .footer {
     background-color: rgb(234, 230, 226);
@@ -90,7 +100,7 @@
     padding: auto;
 }
 .row-h {
-    margin-left: 250px;
+    margin-left: 15rem !important;
     padding-top: 100px;
 }
 .end {
@@ -101,5 +111,9 @@ a {
     text-decoration: none;
 }
 a:hover {
+    text-decoration: underline;
+}
+
+.footer-text:hover {
     text-decoration: underline;
 }

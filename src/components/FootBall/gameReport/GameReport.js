@@ -4,7 +4,7 @@ import './GameReport.scss';
 
 function GameReport(props) {
     return (
-        <div className='container z-1 d-grid bg-light position-absolute top-14 rp-shadow rounded-end-4'>
+        <div className='z-1 d-grid bg-light position-absolute top-14 rp-shadow rounded-end-4'>
             <div className='row'>
                 <div className='col p-50'>
                     <span className='d-block text-uppercase text-center'>Game Report</span>

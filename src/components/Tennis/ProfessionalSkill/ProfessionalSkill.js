@@ -4,7 +4,7 @@ import './ProfessionalSkill.scss';
 function ProfessionalSkill(props) {
     return (
         <div className='position-relative'>
-            <div className='container z-1 d-grid bg-light position-absolute professional5 rp-shadow rounded-4'>
+            <div className='z-1 d-grid bg-light position-absolute professional5 rp-shadow rounded-4'>
                 <div className='d-flex justify-content-around p-5'>
                     <div>
                         <div className='box-about d-flex flex-column position-relative'>

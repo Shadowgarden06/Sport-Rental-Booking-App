@@ -21,15 +21,15 @@ function BasketBall(props) {
             <Header open={open} setOpen={setOpen} showAvatar={showAvatar} setShowAvatar={setShowAvatar}/>
             <CarouselComponent />
             <Principles />
-            <GameReport />
+            {/* <GameReport /> */}
             <PlayersBasketball />
+            {/* <ProfessionalSkill /> */}
             <TimeTable />
-            <ProfessionalSkill />
             <Activities />
             <OurAwards />
             <AboutClub />
             <div className='mt-5'>
-            <Footer />
+                <Footer />
             </div>
         </div>
     );

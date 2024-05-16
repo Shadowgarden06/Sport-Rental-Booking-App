@@ -3,9 +3,9 @@ import './ProfessionalSkill.scss';
 
 function ProfessionalSkill(props) {
     return (
-        <div className='container z-1 d-grid bg-light position-absolute professional1 rp-shadow rounded-4'>
+        <div className='z-1 d-grid bg-light professional1 rp-shadow rounded-4'>
             <div className='d-flex justify-content-around p-5'>
-                <div>
+                <div className='p-2'>
                     <div className='box-about d-flex flex-column position-relative'>
                         <img
                             src='https://oxigeno.bold-themes.com/basketball/wp-content/uploads/sites/6/2017/10/history_inner_14.jpg'
@@ -29,7 +29,7 @@ function ProfessionalSkill(props) {
                     </div>
                 </div>
 
-                <div>
+                <div className='p-2'>
                     <div className='box-about d-flex flex-column position-relative'>
                         <img
                             src='https://oxigeno.bold-themes.com/basketball/wp-content/uploads/sites/6/2017/11/home_inner_01.jpg'
@@ -56,7 +56,7 @@ function ProfessionalSkill(props) {
                     </div>
                 </div>
 
-                <div>
+                <div className='p-2'>
                     <div className='box-about d-flex flex-column position-relative'>
                         <img
                             src='https://oxigeno.bold-themes.com/basketball/wp-content/uploads/sites/6/2017/11/home_inner_02.jpg'
@@ -80,7 +80,7 @@ function ProfessionalSkill(props) {
                     </div>
                 </div>
 
-                <div>
+                <div className='p-2'>
                     <div className='box-about d-flex flex-column position-relative'>
                         <img
                             src='https://oxigeno.bold-themes.com/basketball/wp-content/uploads/sites/6/2017/11/home_inner_03.jpg'

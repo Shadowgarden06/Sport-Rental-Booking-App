@@ -3,7 +3,7 @@ import './Activities.scss';
 
 function Activities(props) {
     return (
-        <div class='container text-center m-0 p-0'>
+        <div class='text-center m-0 p-0'>
             <div class='row p-0 activities-box'>
                 <div class='col p-0'>
                     <img

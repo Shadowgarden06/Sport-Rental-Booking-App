@@ -5,6 +5,8 @@ const BookingHistory = () => {
     const location = useLocation();
     const bookingInfo = location.state?.bookingInfo;
 
+    console.log(bookingInfo);
+
     return (
         <div>
             <h2>Lịch sử đặt sân</h2>
