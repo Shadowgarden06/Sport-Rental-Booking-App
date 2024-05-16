@@ -110,7 +110,7 @@
     color: #eee;
     transform: translate(0, -50%);
     font-family: system-ui;
-    
+    display: none;
 }
 
 
@@ -187,6 +187,9 @@
     }
     .container .slide .item:not(:first-child){
         display: none;
+    }
+    .item .content{
+        display: block;
     }
     
 }
