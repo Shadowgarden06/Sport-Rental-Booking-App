@@ -32,7 +32,7 @@ function CarouselComponent(props) {
         }
     };
     return (
-        <div className='parallax-content7 position-relative'>
+        <div className='parallax-basketball position-relative'>
             <div className='text-center text-light p-5'>
                 <span className='fs-3 text-uppercase text-white'>BasketBall Club</span>
                 <h1 className='fs-78 lh-1 my-2'>
