@@ -100,13 +100,13 @@ function Historyyy(props) {
             {/* Booking History */}
             <div className='d-flex justify-content-center align-items-center'>
                 <div className='booking-history1 my-5'>
-                    <h2 className='text-center mb-4'>Lịch sử đặt sân</h2>
+                    <h2 className='text-center mb-4'>Booking History</h2>
                     {bookingInfo ? (
                         <div className='card shadow-sm p-4'>
                             <div className='row mb-3'>
                                 <div className='col-md-6'>
                                     <p>
-                                        <strong>Ngày:</strong>{' '}
+                                        <strong>Date:</strong>{' '}
                                         {bookingInfo.selectedDate
                                             ? new Date(
                                                   bookingInfo.selectedDate
@@ -116,31 +116,31 @@ function Historyyy(props) {
                                 </div>
                                 <div className='col-md-6'>
                                     <p>
-                                        <strong>Tên:</strong> {bookingInfo.name}
+                                        <strong>Name:</strong> {bookingInfo.name}
                                     </p>
                                 </div>
                             </div>
                             <div className='row mb-3'>
                                 <div className='col-md-6'>
                                     <p>
-                                        <strong>Số điện thoại:</strong> {bookingInfo.phone}
+                                        <strong>Phone Number:</strong> {bookingInfo.phone}
                                     </p>
                                 </div>
                                 <div className='col-md-6'>
                                     <p>
-                                        <strong>Môn Thể Thao:</strong> {bookingInfo.sport}
+                                        <strong>Sport:</strong> {bookingInfo.sport}
                                     </p>
                                 </div>
                             </div>
                             <div className='row mb-3'>
                                 <div className='col-md-6'>
                                     <p>
-                                        <strong>Số giờ đặt:</strong> {bookingInfo.hours}
+                                        <strong>Hour(s):</strong> {bookingInfo.hours}
                                     </p>
                                 </div>
                                 <div className='col-md-6'>
                                     <p>
-                                        <strong>Giá:</strong> ${bookingInfo.price}
+                                        <strong>Price:</strong> ${bookingInfo.price}
                                     </p>
                                 </div>
                             </div>
