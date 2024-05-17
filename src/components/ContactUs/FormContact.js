@@ -76,7 +76,10 @@ function FormContact(props) {
                     Once again, thank you so much for your support and feedback.
                     Best regards,
                     Ryan Sport Club
+
                 </p>
+           
+
             </div>
 
 
