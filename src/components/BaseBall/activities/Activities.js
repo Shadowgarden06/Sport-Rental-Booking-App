@@ -5,7 +5,7 @@ function Activities(props) {
     return (
         <div className='bg-news'>
             <h2 className='mx-5 mb-3 pt-5'>
-                <span className='d-block fs-16 text-uppercase mt-5'>Ryan Sport Club</span>
+                <span className='d-block fs-16 text-uppercase mt-5 pt-5'>Ryan Sport Club</span>
                 <span className='fs-48 text-uppercase'>
                     Latest <span className='text-baseball fw-bold'>News</span>
                 </span>

@@ -3,10 +3,10 @@ import './ProfessionalSkill.scss';
 
 function ProfessionalSkill(props) {
     return (
-        <div className='position-relative'>
-            <div className='container z-1 d-grid bg-light position-absolute professional5 rp-shadow rounded-4'>
+        <div className='position-relative w-100'>
+            <div className='z-1 d-grid bg-light position-absolute professional5 rp-shadow rounded-4'>
                 <div className='d-flex justify-content-around p-5'>
-                    <div>
+                    <div className='p-2'>
                         <div className='box-about d-flex flex-column position-relative'>
                             <img
                                 src='https://oxigeno.bold-themes.com/tennis/wp-content/uploads/sites/4/2017/10/history_inner_14.jpg'
@@ -28,7 +28,7 @@ function ProfessionalSkill(props) {
                         </div>
                     </div>
 
-                    <div>
+                    <div className='p-2'>
                         <div className='box-about d-flex flex-column position-relative'>
                             <img
                                 src='https://oxigeno.bold-themes.com/tennis/wp-content/uploads/sites/4/2017/10/history_inner_13.jpg'
@@ -50,7 +50,7 @@ function ProfessionalSkill(props) {
                         </div>
                     </div>
 
-                    <div>
+                    <div className='p-2'>
                         <div className='box-about d-flex flex-column position-relative'>
                             <img
                                 src='https://oxigeno.bold-themes.com/tennis/wp-content/uploads/sites/4/2017/10/history_inner_12.jpg'
@@ -72,7 +72,7 @@ function ProfessionalSkill(props) {
                         </div>
                     </div>
 
-                    <div>
+                    <div className='p-2'>
                         <div className='box-about d-flex flex-column position-relative'>
                             <img
                                 src='https://oxigeno.bold-themes.com/tennis/wp-content/uploads/sites/4/2017/10/history_inner_11.jpg'

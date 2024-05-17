@@ -6,12 +6,6 @@
 @import "bootstrap/scss/utilities";
 @import "bootstrap/scss/utilities/api";
 
-.parallax22 {
-    position: relative;
-    height: 120vh;
-    overflow: hidden;
-}
-
 .w-schedule2 {
     width: 620px;
 }
@@ -28,24 +22,13 @@
     font-size: 65px
 }
 
-.parallax-bg22 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 120vh;
-    background-image: url('https://oxigeno.bold-themes.com/soccer/wp-content/uploads/sites/3/2017/10/inner_grey_background.jpg');
-    background-size: cover;
-    // background-position: center;
-    // transform: translateY(-50%);
-}
-
 .parallax-content22 {
-    position: relative;
-    z-index: 1;
-    margin-top: 100px;
     padding: 50px;
     text-align: center;
+    width: 100%;
+    height: 50rem;
+    background-image: url('https://oxigeno.bold-themes.com/soccer/wp-content/uploads/sites/3/2017/10/inner_grey_background.jpg');
+    background-size: cover;
 }
 
 .timetable2 {

@@ -4,8 +4,8 @@ import './GameReport.scss';
 
 function GameReport(props) {
     return (
-        <div className='d-flex justify-content-center align-items-center'>
-            <div className='container z-1 basketball-rp bg-light position-absolute top-46 left-10 rp-shadow rounded-4'>
+        <div className='d-flex justify-content-center align-items-center position-absolute top-30 left-10'>
+            <div className=' z-1 basketball-rp bg-light  rp-shadow rounded-4 me-5'>
                 <div className='row'>
                     <div className='col p-4'>
                         <div className=''>
@@ -51,7 +51,7 @@ function GameReport(props) {
                 </div>
             </div>
 
-            <div className='container z-1 basketball-rp bg-light position-absolute top-46 right-8 rp-shadow rounded-4'>
+            <div className='z-1 basketball-rp bg-light rp-shadow rounded-4'>
                 <div className='row'>
                     <div className='col p-4'>
                         <div className=''>

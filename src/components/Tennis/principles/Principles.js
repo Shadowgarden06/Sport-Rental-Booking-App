@@ -1,9 +1,10 @@
 import React from 'react';
 import './Principles.scss';
+import AboutClub from '../aboutclub/AboutClub';
 
 function Principles(props) {
     return (
-        <div className='principles d-flex flex-column justify-content-center align-items-center'>
+        <div className='principles d-flex flex-column justify-content-center align-items-center position-relative'>
             <div className='principles-club1'>
                 <span className='d-block text-center text-uppercase fs-5'>Tennis Club</span>
                 <span className='fs-48 text-uppercase'>
@@ -76,6 +77,7 @@ function Principles(props) {
                     </div>
                 </div>
             </div>
+            <AboutClub />
         </div>
     );
 }

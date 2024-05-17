@@ -4,7 +4,7 @@ import './GameReport.scss';
 
 function GameReport(props) {
     return (
-        <div className='container z-1 d-grid bg-light position-absolute top-14 rp-shadow rounded-end-4'>
+        <div className='z-1 d-grid bg-light position-absolute top-14 rp-shadow rounded-end-4'>
             <div className='row'>
                 <div className='col p-50'>
                     <span className='d-block text-uppercase text-center'>Game Report</span>
@@ -20,7 +20,7 @@ function GameReport(props) {
 
                         <div className='row '>
                             <div className='row'>
-                                <div className='col'>
+                                <div className='col ms-2 text-center'>
                                     <img src={home} alt='home' className='logo-home' />
                                 </div>
 
@@ -56,7 +56,7 @@ function GameReport(props) {
                     <img
                         src='https://oxigeno.bold-themes.com/soccer/wp-content/uploads/sites/3/2018/02/home_game.jpg'
                         alt='final'
-                        className='final-report rounded-end-4'
+                        className='final-report1 rounded-end-4'
                     />
                 </div>
             </div>
