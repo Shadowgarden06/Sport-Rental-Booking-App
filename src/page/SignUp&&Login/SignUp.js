@@ -49,11 +49,8 @@ function SignUp(props) {
           
           Swal.fire({
             title: "Successfully!",
-            html: `
-        <a href="/">Go to Home Page Now!</a>
-      `,
-            text: "Welcome to!",
-            icon: "success",
+            text: "Welcome!",
+            icon: "success", 
             confirmButtonColor: "#3085d6",
             confirmButtonText: "Go to Home Page Now!",
             cancelButtonColor: "#d33",

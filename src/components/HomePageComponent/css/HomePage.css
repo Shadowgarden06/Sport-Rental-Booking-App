@@ -56,9 +56,14 @@
     font-weight: 700;
 }
 .textDe2 {
+    width: 700px;
     margin-top: 10px;
+    margin-left: 350px;
     font-weight: 700;
     text-shadow: 10cap;
     justify-content: center;
     text-align: center;
+}
+.a{
+    color: rgb(86, 86, 223);
 }
