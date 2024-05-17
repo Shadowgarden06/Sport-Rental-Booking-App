@@ -1,14 +1,11 @@
 import React from 'react';
 import './CarouselComponent.scss';
+import GameReport from '../gameReport/GameReport';
 
 function CarouselComponent(props) {
     return (
-        <div>
-            <div
-                id='carouselExampleInterval'
-                className='carousel slide position-relative'
-                data-bs-ride='carousel'
-            >
+        <div className='position-relative'>
+            <div id='carouselExampleInterval' className='carousel slide' data-bs-ride='carousel'>
                 <div className='carousel-inner'>
                     <div className='carousel-item active' data-bs-interval='3000'>
                         <img
@@ -110,6 +107,7 @@ function CarouselComponent(props) {
                     <span className='visually-hidden'>Next</span>
                 </button>
             </div>
+            <GameReport />
         </div>
     );
 }

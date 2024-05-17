@@ -3,9 +3,9 @@ import './ProfessionalSkill.scss';
 
 function ProfessionalSkill(props) {
     return (
-        <div className='z-1 d-grid bg-light position-absolute professional3 rp-shadow rounded-4'>
+        <div className='d-grid bg-light position-absolute professional3 rp-shadow rounded-4'>
             <div className='d-flex justify-content-around p-5'>
-                <div>
+                <div className='p-2'>
                     <div className='box-about d-flex flex-column position-relative'>
                         <img
                             src='https://thefeather.com/wp-content/uploads/2023/05/20230504-baseball-senior-night-010.jpg'
@@ -29,7 +29,7 @@ function ProfessionalSkill(props) {
                     </div>
                 </div>
 
-                <div>
+                <div className='p-2'>
                     <div className='box-about d-flex flex-column position-relative'>
                         <img
                             src='https://seancochran.com/wp-content/uploads/2015/08/Plyometric-Baseball-Article.jpg'
@@ -56,7 +56,7 @@ function ProfessionalSkill(props) {
                     </div>
                 </div>
 
-                <div>
+                <div className='p-2'>
                     <div className='box-about d-flex flex-column position-relative'>
                         <img
                             src='https://backinmotionsspt.com/wp-content/uploads/2021/04/baseball.png'
@@ -80,7 +80,7 @@ function ProfessionalSkill(props) {
                     </div>
                 </div>
 
-                <div>
+                <div className='p-2'>
                     <div className='box-about d-flex flex-column position-relative'>
                         <img
                             src='https://i.pinimg.com/236x/2e/49/f8/2e49f877b2ac0f1bbdbf14b81caf177a.jpg'

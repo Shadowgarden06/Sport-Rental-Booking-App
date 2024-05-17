@@ -9,10 +9,10 @@ function Footer(props) {
     return (
         <div>
             <div className='footer'>
-                <div className='row row-h'>
-                    <div className='col-sm-4'>
+                <div className=' row-h d-flex justify-content-evenly flex-row pe-0 box-footer'>
+                    <div className='pe-0'>
                         <h3 className='fw-bold'>Contact to Ryan</h3>
-                        <p className='ps-3'>
+                        <p className='ps-3 text-start w-text-footer'>
                             Adirondack Sports Complex 326 Sherman AvenueQueensbury, New York
                             12804-9041
                         </p>
@@ -35,42 +35,60 @@ function Footer(props) {
                             </a>
                         </p>
                     </div>
-                    <div className='col-sm-4'>
+                    <div className='pe-0 box-footer'>
                         <h3 className='fw-bold'>Sport for everyone</h3>
-                        <ul>
+                        <ul className=' list-unstyled ps-3'>
                             <li>
-                                <a onClick={() => navigate('/basketball')} className='text-dark'>
+                                <a
+                                    onClick={() => navigate('/basketball')}
+                                    className='text-dark footer-text'
+                                >
                                     Basketball
                                 </a>
                             </li>
                             <li>
-                                <a onClick={() => navigate('/football')} className='text-dark'>
+                                <a
+                                    onClick={() => navigate('/football')}
+                                    className='text-dark footer-text'
+                                >
                                     Football
                                 </a>
                             </li>
                             <li>
-                                <a onClick={() => navigate('/baseball')} className='text-dark'>
+                                <a
+                                    onClick={() => navigate('/baseball')}
+                                    className='text-dark footer-text'
+                                >
                                     Baseball
                                 </a>
                             </li>
                             <li>
-                                <a onClick={() => navigate('/tennis')} className='text-dark'>
+                                <a
+                                    onClick={() => navigate('/tennis')}
+                                    className='text-dark footer-text'
+                                >
                                     Tennis
                                 </a>
                             </li>
                         </ul>
                     </div>
-                    <div className='col-sm-4'>
+                    <div className='pe-0'>
                         <h3 className='fw-bold'>General Info</h3>
-                        <ul>
+                        <ul className=' list-unstyled ps-3'>
                             <li>
-                                <a onClick={() => navigate('/contact')} className='text-dark'>
+                                <a
+                                    onClick={() => navigate('/contact')}
+                                    className='text-dark footer-text'
+                                >
                                     About us
                                 </a>
                             </li>
 
                             <li>
-                                <a onClick={() => navigate('/event')} className='text-dark'>
+                                <a
+                                    onClick={() => navigate('/event')}
+                                    className='text-dark footer-text'
+                                >
                                     Plan Your Event
                                 </a>
                             </li>

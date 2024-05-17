@@ -2,17 +2,16 @@ import React, { useState } from 'react';
 import '../HeaderAndFooter/css/Header.css';
 import home from './img/home.png';
 import { useNavigate } from 'react-router-dom';
-import Login from '../../page/SignUp&&Login/Login';
-import { useLocation } from 'react-router-dom';
 
 function Header(props) {
     const navigate = useNavigate();
     let { setOpen, showAvatar, setShowAvatar } = props;
 
-    // const location = useLocation();
-    // const avatar = location.state?.avatar
+    const handleViewHistory = () => {
+        const bookingInfo = JSON.parse(localStorage.getItem('bookingInfo'));
+        navigate('/history', { state: { bookingInfo } });
+    };
 
-    // console.log('avatar.showAvatar', avatar);
     return (
         <header>
             <nav className='navbar navbar-expand-sm navbar-light footer'>
@@ -37,12 +36,12 @@ function Header(props) {
                                 onClick={() => {
                                     navigate('/');
                                 }}
-                                className='home-name fw-bold text-black fs-1 text-uppercase'
+                                className='home-name fw-bold text-black fs-1 text-uppercase text-decoration-none'
                             >
                                 Ryan Sport Club
                             </a>
                             <a
-                                className='nav-link active nav-header'
+                                className='nav-link active nav-header1'
                                 onClick={() => {
                                     navigate('/sports');
                                 }}
@@ -50,7 +49,7 @@ function Header(props) {
                                 Sports
                             </a>
                             <a
-                                className='nav-link active nav-header'
+                                className='nav-link active nav-header1'
                                 onClick={() => {
                                     navigate('/gallery');
                                 }}
@@ -58,7 +57,7 @@ function Header(props) {
                                 Gallery
                             </a>
                             <a
-                                className='nav-link active nav-header'
+                                className='nav-link active nav-header1'
                                 onClick={() => {
                                     navigate('/event');
                                 }}
@@ -66,7 +65,7 @@ function Header(props) {
                                 Facility your event
                             </a>
                             <a
-                                className='nav-link active nav-header'
+                                className='nav-link active nav-header1'
                                 onClick={() => {
                                     navigate('/contact');
                                 }}
@@ -76,7 +75,7 @@ function Header(props) {
                             <div className='nav-login'>
                                 {showAvatar == 1 ? (
                                     <div className='d-flex'>
-                                        <span className='me-5' onClick={() => navigate('/history')}>
+                                        <span className='me-5' onClick={handleViewHistory}>
                                             <i class='fa-solid fa-user-tie'></i>
                                         </span>
                                         <span
@@ -90,7 +89,7 @@ function Header(props) {
                                     </div>
                                 ) : (
                                     <a
-                                        className='nav-link active'
+                                        className='nav-link active text-decoration-none'
                                         onClick={() => {
                                             setOpen(true);
                                         }}

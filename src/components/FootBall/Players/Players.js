@@ -33,8 +33,8 @@ function Players(props) {
     }, []);
 
     return (
-        <div>
-            <div className='bg-light-subtle bg-professional'></div>
+        <div className='mt-5'>
+            <div className='bg-light-subtle bg-professional mb-5'></div>
             <div className='bg-primary bg-player'>
                 <div className='text-white box-player ms-8 pt-6'>
                     <span className='fs-48 text-uppercase'>

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import CarouselComponent from '../components/Basketball/carousuel/CarouselComponent';
 import Principles from '../components/Basketball/principles/Principles';
 import GameReport from '../components/Basketball/gameReport/GameReport';
@@ -11,14 +11,29 @@ import Footer from '../components/HeaderAndFooter/Footer';
 import Header from '../components/HeaderAndFooter/Header';
 import AboutClub from '../components/Basketball/aboutclub/AboutClub';
 import Login from './SignUp&&Login/Login';
+import RentalPrice from '../components/Basketball/RentalPrice/RentalPrice';
 
 function BasketBall(props) {
     const [open, setOpen] = useState(false);
-    const {showAvatar,setShowAvatar,saveInfo}=props
+    const { showAvatar, setShowAvatar, saveInfo } = props;
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     return (
         <div className='Basketball'>
-            <Login saveInfo={saveInfo} setOpen = {setOpen} open = {open} showAvatar={showAvatar} setShowAvatar={setShowAvatar}/>
-            <Header open={open} setOpen={setOpen} showAvatar={showAvatar} setShowAvatar={setShowAvatar}/>
+            <Login
+                saveInfo={saveInfo}
+                setOpen={setOpen}
+                open={open}
+                showAvatar={showAvatar}
+                setShowAvatar={setShowAvatar}
+            />
+            <Header
+                open={open}
+                setOpen={setOpen}
+                showAvatar={showAvatar}
+                setShowAvatar={setShowAvatar}
+            />
             <CarouselComponent />
             <Principles />
             {/* <GameReport /> */}
@@ -27,10 +42,9 @@ function BasketBall(props) {
             <TimeTable />
             <Activities />
             <OurAwards />
-            <AboutClub />
-            <div className='mt-5'>
-                <Footer />
-            </div>
+            {/* <AboutClub /> */}
+            <RentalPrice />
+            <Footer />
         </div>
     );
 }

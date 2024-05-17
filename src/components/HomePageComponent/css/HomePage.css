@@ -16,6 +16,10 @@
     overflow: hidden;
 }
 
+.home-card :hover {
+    cursor: pointer;
+}
+
 .home-card:hover .item-choose {
     text-decoration: underline;
 }

@@ -5,20 +5,16 @@ import BasketBall from './page/BasketBall';
 import BaseBall from './page/BaseBall';
 import Football from './page/Football';
 import ContactUs from './page/ContactUs';
-import Register from './page/register/Register';
 import Historyyy from './page/history/Historyyy';
 import BookStadium from './page/BookStadium';
 import Sports from './page/Sports';
 import Tennis from './page/Tennis';
-import BookingHistory from './page/BookingHistory';
 import FacilityChild from './page/FacilityChild';
 import FacilityEvent from './page/FacilityEvent';
 import Gallary from './page/Gallary';
 import SignUp from './page/SignUp&&Login/SignUp';
 import { useState } from 'react';
-import Login from './page/SignUp&&Login/Login';
-import { Any } from 'react-spring';
-import { string } from 'yup';
+import Register from './page/register/Register';
 
 function App() {
     const [Infor, setInfor] = useState(['']);
@@ -77,10 +73,17 @@ function App() {
                         />
                     }
                     path='/sports'
-                >
-                    <Route element={<BookStadium />} path='bookstadium' />
-                </Route>
-                <Route element={<BookingHistory />} path='/bookingHistory' />
+                />
+                <Route
+                    element={
+                        <BookStadium
+                            saveInfo={saveInfo}
+                            showAvatar={showAvatar}
+                            setShowAvatar={setShowAvatar}
+                        />
+                    }
+                    path='bookstadium'
+                />
                 <Route
                     element={
                         <BasketBall

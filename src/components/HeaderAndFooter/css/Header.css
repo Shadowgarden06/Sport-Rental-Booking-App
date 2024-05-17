@@ -2,6 +2,7 @@
     text-decoration: none;
 }
 .nav-header1:hover {
+    cursor: pointer;
     text-decoration: none;
     transform: scale(1.1);
     transition: transform 0.2s ease-in-out;
@@ -88,6 +89,7 @@
 }
 .nav-login:hover {
     text-decoration: none;
+    cursor: pointer;
     border-radius: 50px;
     background-color: aqua;
     padding: 20px 30px;
@@ -97,10 +99,10 @@
 .footer {
     background-color: rgb(234, 230, 226);
     width: 100%;
-    padding: auto;
+    /* padding: auto; */
 }
 .row-h {
-    margin-left: 15rem !important;
+    margin-left: 10rem !important;
     padding-top: 100px;
 }
 .end {
@@ -114,6 +116,18 @@ a:hover {
     text-decoration: underline;
 }
 
+.footer-text {
+    text-decoration: none;
+}
 .footer-text:hover {
     text-decoration: underline;
+    cursor: pointer;
+}
+
+.box-footer {
+    max-width: 75rem;
+}
+
+.w-text-footer {
+    width: 20rem;
 }

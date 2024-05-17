@@ -1,14 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
-import { useNavigate } from 'react-router';
+import { useNavigate, useLocation } from 'react-router';
 import Header from '../components/HeaderAndFooter/Header';
 import Footer from '../components/HeaderAndFooter/Footer';
 import '../components/BookingStadium/BookingSport.scss';
 import { Modal, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Login from './SignUp&&Login/Login';
 
-const BookStadium = () => {
+const BookStadium = (props) => {
+    let { showAvatar, setShowAvatar, saveInfo } = props;
+    const [open, setOpen] = useState(false);
     const [selectedDate, setSelectedDate] = useState(null);
     const [name, setName] = useState('');
     const [phone, setPhone] = useState('');
@@ -18,6 +21,20 @@ const BookStadium = () => {
     const [showModal, setShowModal] = useState(false);
     const [errors, setErrors] = useState({});
     const navigate = useNavigate();
+    const location = useLocation();
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
+    useEffect(() => {
+        if (location.state?.sport) {
+            setSport(location.state.sport);
+        }
+        if (location.state?.selectedDate) {
+            setSelectedDate(new Date(location.state.selectedDate));
+        }
+    }, [location.state]);
 
     useEffect(() => {
         let pricePerHour;
@@ -94,16 +111,30 @@ const BookStadium = () => {
             setShowModal(true);
         }
     };
+
     const handleModalClose = () => {
         setShowModal(false);
         const bookingInfo = { selectedDate, name, phone, sport, hours, price };
-        navigate('/bookingHistory', { state: { bookingInfo } });
+        localStorage.setItem('bookingInfo', JSON.stringify(bookingInfo));
+        navigate('/');
+        // navigate('/', { state: { bookingInfo } });
     };
 
     return (
         <div>
-            <Header />
-
+            <Login
+                saveInfo={saveInfo}
+                setOpen={setOpen}
+                open={open}
+                showAvatar={showAvatar}
+                setShowAvatar={setShowAvatar}
+            />
+            <Header
+                open={open}
+                setOpen={setOpen}
+                showAvatar={showAvatar}
+                setShowAvatar={setShowAvatar}
+            />
             <h1 className='text-center text-uppercase fw-bold mt-5 fs-60'>Booking Form</h1>
             <div className='p-5'>
                 <div className='p-5 d-flex justify-content-between booking-form'>
@@ -224,15 +255,7 @@ const BookStadium = () => {
 
             <Footer />
 
-            <Modal
-                show={showModal}
-                onHide={() => {
-                    setShowModal(false);
-                    const bookingInfo = { selectedDate, name, phone, sport, hours, price };
-                    return navigate('/bookingHistory', { state: { bookingInfo } });
-                }}
-                centered
-            >
+            <Modal show={showModal} onHide={handleModalClose} backdrop={false} centered>
                 <Modal.Header closeButton>
                     <Modal.Title>Success</Modal.Title>
                 </Modal.Header>

@@ -1,5 +1,27 @@
-.customForm{
+.customForm {
     margin-left: 50%;
     margin-bottom: 15px;
     margin-top: 15px;
+}
+
+/* Booking History */
+.booking-history1 {
+    max-width: 800px;
+}
+
+.card {
+    border-radius: 8px;
+    background-color: #f8f9fa;
+}
+
+h2 {
+    color: #343a40;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+.alert {
+    font-size: 1.1rem;
 }

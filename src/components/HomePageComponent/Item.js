@@ -31,7 +31,10 @@ function Item(props) {
                             justifyContent={'center'}
                             alignItems={'center'}
                         >
-                            <a onClick={() => navigate('/basketball')} className='text-white'>
+                            <a
+                                onClick={() => navigate('/basketball')}
+                                className='text-white text-decoration-none'
+                            >
                                 <CardContent>
                                     <Typography className='text' component='div' variant='h3'>
                                         Basketball
@@ -58,7 +61,7 @@ function Item(props) {
                     </Card>
                 </Grid>
                 <Grid item xs={4}>
-                    <Card sx={{ display: 'flex' }} textAlign={'right'}>
+                    <Card sx={{ display: 'flex' }} textAlign={'right'} className='home-card'>
                         <a onClick={() => navigate('/baseball')}>
                             <CardMedia
                                 component='img'
@@ -74,7 +77,10 @@ function Item(props) {
                             justifyContent={'center'}
                             alignItems={'center'}
                         >
-                            <a onClick={() => navigate('/baseball')} className='text-white'>
+                            <a
+                                onClick={() => navigate('/baseball')}
+                                className='text-white text-decoration-none'
+                            >
                                 <CardContent>
                                     <Typography className='text' component='div' variant='h3'>
                                         Baseball
@@ -100,7 +106,10 @@ function Item(props) {
                             justifyContent={'center'}
                             alignItems={'center'}
                         >
-                            <a onClick={() => navigate('/tennis')} className='text-white'>
+                            <a
+                                onClick={() => navigate('/tennis')}
+                                className='text-white text-decoration-none'
+                            >
                                 <CardContent>
                                     <Typography className='text' component='div' variant='h3'>
                                         Tennis
@@ -127,7 +136,7 @@ function Item(props) {
                     </Card>
                 </Grid>
                 <Grid item xs={6}>
-                    <Card sx={{ display: 'flex' }}>
+                    <Card sx={{ display: 'flex' }} className='home-card'>
                         <a onClick={() => navigate('/football')}>
                             <CardMedia
                                 component='img'
@@ -144,7 +153,10 @@ function Item(props) {
                             justifyContent={'center'}
                             alignItems={'center'}
                         >
-                            <a onClick={() => navigate('/football')} className='text-white'>
+                            <a
+                                onClick={() => navigate('/football')}
+                                className='text-white text-decoration-none'
+                            >
                                 <CardContent>
                                     <Typography className='text' component='div' variant='h3'>
                                         Football
