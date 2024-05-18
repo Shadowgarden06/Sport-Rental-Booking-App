@@ -34,7 +34,7 @@ function CurrentName(props) {
     };
   }, []);
   return (
-    <div>
+    <div className="middleThuan">
     <div className="container">
       <div className="slide">
         <div

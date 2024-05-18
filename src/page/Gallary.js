@@ -9,7 +9,7 @@ function Gallary(props) {
             <Header/>
             <GallaryThuan/>
             <Footer/>
-            <div>CUU TÁo</div>
+            
         </div>
     );
 }

@@ -1,10 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../HeaderAndFooter/css/Header.css';
 import home from './img/home.png';
 import { useNavigate } from 'react-router-dom';
 
 function Header(props) {
     const navigate = useNavigate();
+    const [menuOpen, setMenuOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setMenuOpen(!menuOpen);
+    };
 
     return (
         <header>
@@ -50,6 +55,32 @@ function Header(props) {
                                 </a>
                             </div>
                         </div>
+                        <div className='thuanheader'>
+                            <img
+                                    className='background1'
+                                    src={home}
+                                    alt=''
+                                    onClick={() => {
+                                        navigate('/');
+                                    }}
+                                />
+                            <div className='menu-icon' onClick={toggleMenu}>
+                                &#9776;
+                            </div>
+                        
+                        <div className={`menu-popup ${menuOpen ? 'active' : ''}`}>
+                            <a href='/sports'>Sports</a>
+                            
+                            <a href='/gallery'>Gallery</a>
+                            <a href='/event'>Facility your event</a>
+
+                            <a href='/login'>Login</a>            
+                            <a href='/contact'>About us</a>
+
+                        </div>
+                        </div>
+
+                       
                     </form>
                 </div>
             </nav>
