@@ -12,7 +12,6 @@ function Gallary(props) {
     }, []);
     return (
         <div>
-<<<<<<< HEAD
             <Login
                 saveInfo={saveInfo}
                 setOpen={setOpen}
@@ -29,12 +28,10 @@ function Gallary(props) {
             <GallaryThuan />
             <Footer />
             <div>CUU TÁo</div>
-=======
             <Header/>
             <GallaryThuan/>
             <Footer/>
             
->>>>>>> fix_event
         </div>
     );
 }

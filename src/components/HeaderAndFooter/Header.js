@@ -6,11 +6,11 @@ import { useNavigate } from 'react-router-dom';
 function Header(props) {
     const navigate = useNavigate();
     let { setOpen, showAvatar, setShowAvatar } = props;
-
+    const [menuOpen, setMenuOpen] = useState(false);
     const handleViewHistory = () => {
         const bookingInfo = JSON.parse(localStorage.getItem('bookingInfo'));
         navigate('/history', { state: { bookingInfo } });
-    const [menuOpen, setMenuOpen] = useState(false);
+   }
 
     const toggleMenu = () => {
         setMenuOpen(!menuOpen);

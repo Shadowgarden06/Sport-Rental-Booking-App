@@ -126,11 +126,7 @@
     /* text-shadow: 10cap; */
     justify-content: center;
     text-align: center;
-    color: white;
+    color: rgb(254, 253, 253);
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
     font-weight: bold;
-}
-
-.a {
-    color: rgb(86, 86, 223);
 }
