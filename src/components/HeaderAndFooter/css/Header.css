@@ -212,4 +212,55 @@ a:hover {
         width: 60px;
         height: 60px;
     }
+    .footer {
+        padding: 20px;
+    }
+
+    .row-h {
+        margin-left: 0 !important;
+        padding-top: 20px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .row-h .pe-0 {
+        padding-bottom: 20px;
+        max-width: 100%;
+    }
+
+    .row-h h3 {
+        font-size: 1.2rem;
+    }
+
+    .row-h p,
+    .row-h ul,
+    .row-h li {
+        font-size: 0.9rem;
+        padding: 0;
+    }
+
+    .box-footer {
+        max-width: 100%;
+    }
+
+    .w-text-footer {
+        width: auto;
+        text-align: center;
+    }
+
+    .background2 {
+        height: 50px;
+        width: 50px;
+        margin: 15px auto;
+        border-radius: 50%;
+    }
+
+    .end {
+        text-align: center;
+        padding-bottom: 10px;
+        font-size: 0.8rem;
+    }
+
+    
 }

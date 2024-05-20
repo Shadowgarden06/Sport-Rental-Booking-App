@@ -9,13 +9,14 @@ function Header(props) {
     const [menuOpen, setMenuOpen] = useState(false);
     const handleViewHistory = () => {
         const bookingInfo = JSON.parse(localStorage.getItem('bookingInfo'));
+        navigate('/history', { state: { bookingInfo } });}
         navigate('/history', { state: { bookingInfo } });
    }
 
     const toggleMenu = () => {
         setMenuOpen(!menuOpen);
     };
-
+    
     return (
         <header>
             <nav className='navbar navbar-expand-sm navbar-light footer'>
