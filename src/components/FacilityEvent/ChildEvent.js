@@ -49,7 +49,7 @@ function CurrentName(props) {
               Come and play as a team, or register a team to participate in
               weekly tournaments every Monday, Thursday and Saturday at 7pm.
             </div>
-            <button>See More</button>
+            
           </div>
         </div>
         <div
@@ -63,8 +63,9 @@ function CurrentName(props) {
             <div className="des">
               Sign up as a pair or individually for cheaper group play from 4pm
               to 7pm.
+              Open court - free in
             </div>
-            <button>See More</button>
+            
           </div>
         </div>
         <div
@@ -72,11 +73,11 @@ function CurrentName(props) {
           style={{ backgroundImage: `url(${img3})` }}
         >
           <div className="content">
-            <div className="name">Hinh 3</div>
+            <div className="name">Open free stadium baseball</div>
             <div className="des">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!
+              Go in and play, don't worry , just practice
+              Open court - free in
             </div>
-            <button>See More</button>
           </div>
         </div>
         <div
@@ -84,11 +85,12 @@ function CurrentName(props) {
           style={{ backgroundImage: `url(${img4})`}}
         >
           <div className="content">
-            <div className="name">Hinh 4</div>
+            <div className="name">practice and became a famous one</div>
             <div className="des">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!
+              Do more earn more, everything on you
+              Open court - free in
             </div>
-            <button>See More</button>
+            
           </div>
         </div>
         <div
@@ -96,11 +98,12 @@ function CurrentName(props) {
           style={{ backgroundImage: `url(${img5})` }}
         >
           <div className="content">
-            <div className="name">Hinh 5</div>
+            <div className="name">Basketball court for the newbie</div>
             <div className="des">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!
+              Handle like Kyrie, Jump like James, be king be magic
+              Open court - free in
             </div>
-            <button>See More</button>
+            
           </div>
         </div>
         <div
@@ -108,21 +111,22 @@ function CurrentName(props) {
           style={{ backgroundImage: `url(${img6})` }}
         >
           <div className="content">
-            <div className="name">Hinh 6</div>
+            <div className="name">Go GO Go</div>
             <div className="des">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!
+              Left foot Messi, Right foot Ronaldo - Be the goat 
+              Open court - free in
             </div>
-            <button>See More</button>
+           
           </div>
         </div>
       </div>
 
       <div className="button">
         <button className="prev">
-          <i>pre</i>
+          <i>Pre</i>
         </button>
         <button className="next">
-          <i>next</i>
+          <i>Nex</i>
         </button>
       </div>
     </div>
