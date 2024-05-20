@@ -27,6 +27,12 @@
     transition: transform 0.2s ease-in-out;
 }
 
+.text-headerback {
+    color: white;
+    text-shadow: 1px 1px 2px solid rgba(0, 0, 0, 1);
+    font-weight: bold;
+}
+
 .background2 {
     height: 5%;
     width: 5%;
@@ -41,13 +47,13 @@
     font-weight: 900;
     font-size: 100px;
 }
-@media only screen and (max-width: 800px){
-    .uppercase{
+@media only screen and (max-width: 800px) {
+    .uppercase {
         text-transform: uppercase;
-    font-family: 'Brush Script MT', cursive;
+        font-family: 'Brush Script MT', cursive;
         font-weight: 400;
         font-size: 40px;
-}
+    }
 }
 .uppercase-2 {
     text-transform: uppercase;
@@ -55,23 +61,25 @@
     font-weight: 900;
     font-size: 50px;
 }
-@media only screen and (max-width: 800px){
-    .uppercase-2{
+@media only screen and (max-width: 800px) {
+    .uppercase-2 {
         text-transform: uppercase;
-    font-family: Georgia, serif;
+        font-family: Georgia, serif;
         font-weight: 400;
         font-size: 35px;
-}}
+    }
+}
 
-.done{
+.done {
     font-size: 50px;
 }
-@media only screen and (max-width: 800px){
-    .done{
+@media only screen and (max-width: 800px) {
+    .done {
         text-transform: uppercase;
-    font-family: Georgia, serif;
+        font-family: Georgia, serif;
         font-size: 20px;
-}}
+    }
+}
 .discr {
     justify-content: center;
     margin-top: 100px;
@@ -94,8 +102,8 @@
     height: 480px;
     margin-top: 30px;
 }
-@media only screen and (max-width: 800px){
-    .background{
+@media only screen and (max-width: 800px) {
+    .background {
         background-size: 400px 300px;
     }
 }
@@ -161,11 +169,11 @@ a:hover {
 .w-text-footer {
     width: 20rem;
 }
-.thuanheader{
+.thuanheader {
     display: none;
 }
 @media (max-width: 700px) {
-    .thuanheader{
+    .thuanheader {
         display: block;
     }
     .nav-item {
@@ -190,7 +198,7 @@ a:hover {
         background-color: white;
         border: 1px solid #ddd;
         border-radius: 5px;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
         z-index: 1000;
     }
 
@@ -208,7 +216,7 @@ a:hover {
     .menu-popup a:hover {
         background-color: #f0f0f0;
     }
-    .background1{
+    .background1 {
         width: 60px;
         height: 60px;
     }
@@ -261,6 +269,4 @@ a:hover {
         padding-bottom: 10px;
         font-size: 0.8rem;
     }
-
-    
 }
