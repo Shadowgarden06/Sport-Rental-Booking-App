@@ -27,6 +27,12 @@
     transition: transform 0.2s ease-in-out;
 }
 
+.text-headerback {
+    color: white;
+    text-shadow: 1px 1px 2px solid rgba(0, 0, 0, 1);
+    font-weight: bold;
+}
+
 .background2 {
     height: 5%;
     width: 5%;
@@ -41,11 +47,38 @@
     font-weight: 900;
     font-size: 100px;
 }
+@media only screen and (max-width: 800px) {
+    .uppercase {
+        text-transform: uppercase;
+        font-family: 'Brush Script MT', cursive;
+        font-weight: 400;
+        font-size: 40px;
+    }
+}
 .uppercase-2 {
     text-transform: uppercase;
     font-family: Georgia, serif;
     font-weight: 900;
     font-size: 50px;
+}
+@media only screen and (max-width: 800px) {
+    .uppercase-2 {
+        text-transform: uppercase;
+        font-family: Georgia, serif;
+        font-weight: 400;
+        font-size: 35px;
+    }
+}
+
+.done {
+    font-size: 50px;
+}
+@media only screen and (max-width: 800px) {
+    .done {
+        text-transform: uppercase;
+        font-family: Georgia, serif;
+        font-size: 20px;
+    }
 }
 .discr {
     justify-content: center;
@@ -60,7 +93,7 @@
 .background {
     background-image: url('../img/messi-inter-miami-sporting-kc2-removebg-preview.png'),
         url('../img/nynnzoeryrhzwnghbtkk-removebg.png');
-    background-size: 780px;
+    background-size: 680px 450px;
     background-position: right bottom, left top;
     background-repeat: no-repeat;
     text-align: center;
@@ -68,6 +101,11 @@
     padding: 15px;
     height: 480px;
     margin-top: 30px;
+}
+@media only screen and (max-width: 800px) {
+    .background {
+        background-size: 400px 300px;
+    }
 }
 .nav-logo {
     font-size: 42px;
@@ -115,7 +153,6 @@ a {
 a:hover {
     text-decoration: underline;
 }
-<<<<<<< HEAD
 
 .footer-text {
     text-decoration: none;
@@ -132,12 +169,11 @@ a:hover {
 .w-text-footer {
     width: 20rem;
 }
-=======
-.thuanheader{
+.thuanheader {
     display: none;
 }
 @media (max-width: 700px) {
-    .thuanheader{
+    .thuanheader {
         display: block;
     }
     .nav-item {
@@ -162,7 +198,7 @@ a:hover {
         background-color: white;
         border: 1px solid #ddd;
         border-radius: 5px;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
         z-index: 1000;
     }
 
@@ -180,9 +216,57 @@ a:hover {
     .menu-popup a:hover {
         background-color: #f0f0f0;
     }
-    .background1{
+    .background1 {
         width: 60px;
         height: 60px;
     }
+    .footer {
+        padding: 20px;
+    }
+
+    .row-h {
+        margin-left: 0 !important;
+        padding-top: 20px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .row-h .pe-0 {
+        padding-bottom: 20px;
+        max-width: 100%;
+    }
+
+    .row-h h3 {
+        font-size: 1.2rem;
+    }
+
+    .row-h p,
+    .row-h ul,
+    .row-h li {
+        font-size: 0.9rem;
+        padding: 0;
+    }
+
+    .box-footer {
+        max-width: 100%;
+    }
+
+    .w-text-footer {
+        width: auto;
+        text-align: center;
+    }
+
+    .background2 {
+        height: 50px;
+        width: 50px;
+        margin: 15px auto;
+        border-radius: 50%;
+    }
+
+    .end {
+        text-align: center;
+        padding-bottom: 10px;
+        font-size: 0.8rem;
+    }
 }
->>>>>>> fix_event

@@ -5,8 +5,8 @@ import AboutClub from '../aboutclub/AboutClub';
 function OurAwards(props) {
     return (
         <div className='parallax-content9 text-white position-relative'>
-            <div className='ms-11 mb-5'>
-                <div className='d-flex justify-content-evenly ryan-number'>
+            <div className='ryan-contain'>
+                <div className='ryan-number-basketball'>
                     <div className='text-start'>
                         <span className='d-block text-start text-uppercase'>
                             Professional Stuff
@@ -21,7 +21,7 @@ function OurAwards(props) {
                     </div>
                 </div>
 
-                <div className='d-flex'>
+                <div className='professional-stuff'>
                     <div className=' professional-box'>
                         <div className='d-flex'>
                             <span className='p-2 mt-4'>
@@ -41,7 +41,7 @@ function OurAwards(props) {
                         </p>
                     </div>
 
-                    <div className='professional-box box-number'>
+                    <div className='professional-box box-number-basketball'>
                         <div className='d-flex'>
                             <span className='p-2 mt-4'>
                                 <i class='fa-solid fa-medal icon-numbers'></i>
@@ -60,7 +60,7 @@ function OurAwards(props) {
                         </p>
                     </div>
 
-                    <div className='professional-box box-number'>
+                    <div className='professional-box box-number-basketball'>
                         <div className='d-flex'>
                             <span className='p-2 mt-4'>
                                 <i class='fa-solid fa-arrow-up-right-dots icon-numbers'></i>
@@ -79,7 +79,7 @@ function OurAwards(props) {
                         </p>
                     </div>
 
-                    <div className='professional-box box-number'>
+                    <div className='professional-box box-number-basketball'>
                         <div className='d-flex'>
                             <span className='p-2 mt-4'>
                                 <i class='fa-solid fa-trophy icon-numbers'></i>

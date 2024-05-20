@@ -16,6 +16,7 @@ import SignUp from './page/SignUp&&Login/SignUp';
 import { useState } from 'react';
 import Register from './page/register/Register';
 
+
 function App() {
     const [Infor, setInfor] = useState(['']);
     const [showAvatar, setShowAvatar] = useState('');

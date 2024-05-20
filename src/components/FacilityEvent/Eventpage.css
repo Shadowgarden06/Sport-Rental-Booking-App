@@ -152,6 +152,9 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
   @media (max-width: 900px) {
+    .banner{
+      display: block;
+    }
     .banner_sub_content {
       grid-template-columns: 1fr; 
       grid-gap: 10px;
@@ -177,13 +180,16 @@
     }
   
     .hot_topic_content p {
-      display: block;
+      display: none;
       margin-top: 10px; 
       line-height: 1.5; 
     }
   
     .hot_topic button {
       width: 100%;
+    }
+    .ping{
+      display: none;
     }
   }
   

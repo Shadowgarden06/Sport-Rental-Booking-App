@@ -26,9 +26,7 @@
     margin-left: 6rem;
 }
 
-.schedule-mar1 {
-    margin-left: 2rem;
-}
+
 
 .parallax-basketball {
     width: 100%;
@@ -79,9 +77,7 @@
     left: 25%;
 }
 
-.fs-78 {
-    font-size: 78px;
-}
+
 
 .w-700 {
     width: 700px;
@@ -102,7 +98,41 @@
 @media only screen and (min-width: 600px) {}
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+
+    .span-basketball {
+        font-size: 16px;
+    }
+
+    .text-basketball {
+        font-size: 48px;
+    }
+
+    .infor-club {
+        width: 10rem;
+    }
+
+    .schedule-basketclub {
+        margin-left: 0;
+    }
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+
+    .span-basketball {
+        font-size: 25px;
+    }
+
+    .text-basketball {
+        font-size: 78px;
+    }
+
+    .infor-club {
+        width: 10rem;
+    }
+
+    .schedule-basketclub {
+        margin-left: 2rem;
+    }
+}

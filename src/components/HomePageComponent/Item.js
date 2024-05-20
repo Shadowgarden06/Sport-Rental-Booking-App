@@ -51,6 +51,7 @@ function Item(props) {
                         </Box>
                         <a onClick={() => navigate('/basketball')}>
                             <CardMedia
+                            
                                 component='img'
                                 sx={{ width: 500, height: 300 }}
                                 image={basketball}

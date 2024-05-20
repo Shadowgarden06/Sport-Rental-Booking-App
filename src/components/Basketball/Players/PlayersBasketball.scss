@@ -1,18 +1,3 @@
-@import "bootstrap/scss/functions";
-@import "bootstrap/scss/variables";
-@import "bootstrap/scss/variables-dark";
-@import "bootstrap/scss/maps";
-@import "bootstrap/scss/mixins";
-@import "bootstrap/scss/utilities";
-@import "bootstrap/scss/utilities/api";
-
-
-.parallax4 {
-    position: relative;
-    height: 100vh;
-    overflow: hidden;
-}
-
 .w-schedule2 {
     width: 620px;
 }
@@ -49,24 +34,12 @@
     height: 600px;
 }
 
-.ms-21 {
-    margin-left: 23rem;
-}
 
-.ms-8basket {
-    margin-left: 10rem;
-}
 
 .bg-player1 {
     height: 580px;
     background-image: url('https://oxigeno.bold-themes.com/basketball/wp-content/uploads/sites/6/2017/10/inner-bg-awards.jpg');
     object-fit: cover;
-}
-
-.player-box-img {
-    text-align: center;
-    width: 300px;
-    margin-left: 28rem;
 }
 
 .player-img1 {
@@ -75,9 +48,7 @@
     border-radius: 50%;
 }
 
-.player-box-des {
-    width: 1200px;
-}
+
 
 .carousel-ms {
     margin-left: -10% !important;
@@ -108,9 +79,7 @@
     width: 790px;
 }
 
-.box-player-des {
-    width: 300px;
-}
+
 
 .react-multiple-carousel__arrow--left {
     left: 0;
@@ -126,4 +95,89 @@
 
 .text-orange {
     color: #ff7f00;
+}
+
+
+
+
+/* Extral small devices(phones 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .player-testimonials {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+        max-width: 100%;
+    }
+
+    .player-img-basket {
+        text-align: center;
+        width: 300px;
+        margin-left: 14rem;
+    }
+
+    .ms-8basket {
+        margin-left: 0;
+    }
+
+    .player-box-des1 {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .box-player-des1 {
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1440px) {
+
+    .player-img-basket {
+        text-align: center;
+        max-width: 300px;
+        margin-left: 22rem;
+    }
+
+    .ms-8basket {
+        margin-left: 0;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1440px) {
+    .player-testimonials {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 23rem;
+        max-width: 100%;
+    }
+
+    .player-img-basket {
+        text-align: center;
+        max-width: 300px;
+        margin-left: 28rem;
+    }
+
+    .ms-8basket {
+        margin-left: 10rem;
+    }
+
+    .player-box-des1 {
+        width: 1200px;
+        padding: 0px;
+    }
+
+    .box-player-des1 {
+        width: 300px;
+    }
 }

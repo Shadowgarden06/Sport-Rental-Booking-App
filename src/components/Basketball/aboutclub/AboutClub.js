@@ -42,7 +42,7 @@ function AboutClub(props) {
                     </div>
                 </div>
 
-                <div className='col p-0'>
+                <div className='col p-0 basketballClub-infor'>
                     <img
                         src='https://oxigeno.bold-themes.com/basketball/wp-content/uploads/sites/6/2017/11/inner-vertical-640x640.jpg'
                         alt='final'
