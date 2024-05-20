@@ -115,7 +115,6 @@ a {
 a:hover {
     text-decoration: underline;
 }
-<<<<<<< HEAD
 
 .footer-text {
     text-decoration: none;
@@ -132,7 +131,6 @@ a:hover {
 .w-text-footer {
     width: 20rem;
 }
-=======
 .thuanheader{
     display: none;
 }
@@ -184,5 +182,5 @@ a:hover {
         width: 60px;
         height: 60px;
     }
+    
 }
->>>>>>> fix_event
