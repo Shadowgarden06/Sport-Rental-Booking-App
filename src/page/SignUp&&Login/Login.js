@@ -109,41 +109,35 @@ function Login(props) {
                             />
                         </div>
 
-                        <button type='submit' class='btn btn-primary' onClick={(e) => onSubmit(e)}>
-                            Submit
-                        </button>
-                        <a onClick={() => navigate('/signup')}> Register</a>
-                    </form>
-                    <Button
-                        sx={{ left: '45%', width: 100 }}
-                        className='bg-danger text-white'
-                        onClick={handleClose}
-                    >
-                        Close
-                    </Button>
-                </Box>
-            </Modal>
-            <Snackbar open={openSna} autoHideDuration={6000} onClose={handleCloseSna}>
-                <Alert
-                    onClose={handleCloseSna}
-                    severity='error'
-                    variant='filled'
-                    sx={{ width: '100%', bottom: 10, right: 50 }}
-                >
-                    Please input Mail or Password
-                </Alert>
-            </Snackbar>
-            <Snackbar open={openSna2} autoHideDuration={6000} onClose={handleCloseSna2}>
-                <Alert
-                    onClose={handleCloseSna2}
-                    id='2'
-                    severity='error'
-                    variant='filled'
-                    sx={{ width: '100%', bottom: 10, right: 50 }}
-                >
-                    Mail or Password does not exist
-                </Alert>
-            </Snackbar>
+  <button type="submit" class="btn btn-primary" onClick={(e)=>onSubmit(e)}>Submit</button>
+  <a className='register' onClick={()=>navigate("/signup")}> Do not have account? Sign up</a>
+ 
+</form>
+          <Button sx={{left:'45%',width:100}} className='bg-danger text-white' onClick={handleClose}>Close</Button>
+        </Box>
+      </Modal>
+      <Snackbar open={openSna} autoHideDuration={6000} onClose={handleCloseSna}>
+        <Alert
+          onClose={handleCloseSna}
+          severity="error"
+          variant="filled"
+          sx={{ width: '100%', bottom: 10, right:50}}
+        >
+          Please input Mail or Password
+        </Alert>
+        </Snackbar>
+        <Snackbar open={openSna2} autoHideDuration={6000} onClose={handleCloseSna2}>
+        <Alert
+          onClose={handleCloseSna2}
+          id='2'
+          severity="error"
+          variant="filled"
+          sx={{ width: '100%', bottom: 10, right:50}}
+        >
+          Mail or Password does not exist
+        </Alert>
+       
+      </Snackbar>
         </div>
     );
 }

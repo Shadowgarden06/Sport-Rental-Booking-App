@@ -5,6 +5,7 @@
     text-align: center !important;
     width: 100%;
 }
+
 .bg-detail {
     border-radius: 10px;
     background: rgb(136, 136, 233);
@@ -32,12 +33,34 @@
 }
 .item {
     align-items: center;
+    width: 100%;
     text-align: center;
     margin-bottom: 15px;
 }
+
+@media only screen and (max-width: 800px) {
+    .item {
+        align-items: center;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+}
+
+.item1 {
+    width: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+    .item1 {
+        width: 500px;
+    }
+}
+
 .text {
     text-decoration: underline overline;
 }
+
 .hinh_anh {
     width: 75%;
     height: 600px;
@@ -48,6 +71,7 @@
     margin-bottom: 10px;
     border-radius: 50px;
 }
+
 .court_open {
     width: 500px;
     height: 100px;
@@ -56,6 +80,7 @@
     margin-right: auto;
     border-radius: 50px;
 }
+
 .describe {
     background-image: url('../img/hinh.jpg');
     background-size: 100%;
@@ -67,6 +92,25 @@
     width: 100%;
     margin-top: 30px;
 }
+
+@media only screen and (max-width: 1448px) {
+    .describe {
+        background-image: url('../img/hinh.jpg');
+        background-size: 1000px;
+        width: 1000px;
+        height: auto;
+
+    }
+}
+.backitem {
+    width: 300px; height: 100%
+}
+@media only screen and (max-width: 1448px) {
+    .backitem {
+        width: 200px;
+        height: 100%
+    }
+}
 .textDe {
     margin-top: 150px;
     justify-content: center;
@@ -74,7 +118,9 @@
     text-align: center;
     font-weight: 700;
 }
+
 .textDe2 {
+
     margin-top: 10px;
     font-weight: 700;
     /* text-shadow: 10cap; */
@@ -83,4 +129,8 @@
     color: white;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
     font-weight: bold;
+}
+
+.a {
+    color: rgb(86, 86, 223);
 }

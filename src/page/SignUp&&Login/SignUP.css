@@ -6,3 +6,11 @@
 .back{
     padding-top: 50px;
 }
+.register{
+    text-decoration: none;
+    color: rgb(47, 47, 217);
+}
+.register:hover{
+    text-decoration: underline;
+    color: rgb(240, 17, 17);
+}
