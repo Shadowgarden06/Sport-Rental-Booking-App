@@ -4,16 +4,16 @@ import './ProfessionalSkill.scss';
 function ProfessionalSkill(props) {
     return (
         <div className='z-1 d-grid bg-light professional1 rp-shadow rounded-4'>
-            <div className='d-flex justify-content-around p-5'>
+            <div className='activities-basketball'>
                 <div className='p-2'>
-                    <div className='box-about d-flex flex-column position-relative'>
+                    <div className='box-about1 d-flex flex-column position-relative'>
                         <img
                             src='https://oxigeno.bold-themes.com/basketball/wp-content/uploads/sites/6/2017/10/history_inner_14.jpg'
                             alt=''
                             className='about-img1'
                         />
 
-                        <div className='bg-light position-absolute rounded-circle icon-circle2'>
+                        <div className='bg-light position-absolute rounded-circle icon-basketball'>
                             <span className='d-block rounded-circle bg-redbasket  icon-circle-size1'>
                                 <i style={{ color: '#ffffff' }} class='fa-solid fa-medal'></i>
                             </span>
@@ -30,14 +30,14 @@ function ProfessionalSkill(props) {
                 </div>
 
                 <div className='p-2'>
-                    <div className='box-about d-flex flex-column position-relative'>
+                    <div className='box-about1 d-flex flex-column position-relative'>
                         <img
                             src='https://oxigeno.bold-themes.com/basketball/wp-content/uploads/sites/6/2017/11/home_inner_01.jpg'
                             alt=''
                             className='about-img1'
                         />
 
-                        <div className='bg-light position-absolute rounded-circle icon-circle2'>
+                        <div className='bg-light position-absolute rounded-circle icon-basketball'>
                             <span className='d-block rounded-circle bg-redbasket  icon-circle-special'>
                                 <i
                                     style={{ color: '#ffffff' }}
@@ -57,14 +57,14 @@ function ProfessionalSkill(props) {
                 </div>
 
                 <div className='p-2'>
-                    <div className='box-about d-flex flex-column position-relative'>
+                    <div className='box-about1 d-flex flex-column position-relative'>
                         <img
                             src='https://oxigeno.bold-themes.com/basketball/wp-content/uploads/sites/6/2017/11/home_inner_02.jpg'
                             alt=''
                             className='about-img1'
                         />
 
-                        <div className='bg-light position-absolute rounded-circle icon-circle2'>
+                        <div className='bg-light position-absolute rounded-circle icon-basketball'>
                             <span className='d-block rounded-circle bg-redbasket  icon-circle-size1'>
                                 <i style={{ color: '#ffffff' }} class='fa-solid fa-basketball'></i>
                             </span>
@@ -81,14 +81,14 @@ function ProfessionalSkill(props) {
                 </div>
 
                 <div className='p-2'>
-                    <div className='box-about d-flex flex-column position-relative'>
+                    <div className='box-about1 d-flex flex-column position-relative'>
                         <img
                             src='https://oxigeno.bold-themes.com/basketball/wp-content/uploads/sites/6/2017/11/home_inner_03.jpg'
                             alt=''
                             className='about-img1'
                         />
 
-                        <div className='bg-light position-absolute rounded-circle icon-circle2'>
+                        <div className='bg-light position-absolute rounded-circle icon-basketball'>
                             <span className='d-block rounded-circle bg-redbasket  icon-circle-size1'>
                                 <i
                                     style={{ color: '#ffffff' }}

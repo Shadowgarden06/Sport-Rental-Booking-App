@@ -25,12 +25,6 @@
     font-size: 48px;
 }
 
-.mx-9 {
-    margin-left: 7rem;
-    margin-right: 7rem;
-}
-
-
 .box-day {
     height: 25px;
 }
@@ -45,4 +39,88 @@
 
 .bg-redbasket {
     background-color: #ff0000;
+}
+
+
+
+/* Extral small devices(phones 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    .basketball-contain {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .basketball-news {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .box-news {
+        width: 20rem;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    .basketball-contain {
+        margin-left: 7rem;
+        margin-right: 7rem;
+    }
+
+    .basketball-news {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .box-news {
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1440px) {
+    .basketball-contain {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .basketball-news {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .box-news {
+        max-width: 25rem;
+    }
+
+}
+
+
+@media only screen and (min-width: 1440px) {
+
+    .basketball-contain {
+        margin-left: 7rem;
+        margin-right: 7rem;
+    }
+
+    .basketball-news {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+    }
+
+    .box-news {
+        width: 100%;
+    }
 }
