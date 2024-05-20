@@ -10,6 +10,7 @@ function Header(props) {
     const handleViewHistory = () => {
         const bookingInfo = JSON.parse(localStorage.getItem('bookingInfo'));
         navigate('/history', { state: { bookingInfo } });}
+        navigate('/history', { state: { bookingInfo } });
     const [menuOpen, setMenuOpen] = useState(false);
 
     const toggleMenu = () => {
