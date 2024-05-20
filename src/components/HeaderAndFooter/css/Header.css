@@ -45,12 +45,37 @@
     font-weight: 900;
     font-size: 100px;
 }
+@media only screen and (max-width: 800px){
+    .uppercase{
+        text-transform: uppercase;
+    font-family: 'Brush Script MT', cursive;
+        font-weight: 400;
+        font-size: 40px;
+}
+}
 .uppercase-2 {
     text-transform: uppercase;
     font-family: Georgia, serif;
     font-weight: 900;
     font-size: 50px;
 }
+@media only screen and (max-width: 800px){
+    .uppercase-2{
+        text-transform: uppercase;
+    font-family: Georgia, serif;
+        font-weight: 400;
+        font-size: 35px;
+}}
+
+.done{
+    font-size: 50px;
+}
+@media only screen and (max-width: 800px){
+    .done{
+        text-transform: uppercase;
+    font-family: Georgia, serif;
+        font-size: 20px;
+}}
 .discr {
     justify-content: center;
     margin-top: 100px;
@@ -58,7 +83,7 @@
 .background {
     background-image: url('../img/messi-inter-miami-sporting-kc2-removebg-preview.png'),
         url('../img/nynnzoeryrhzwnghbtkk-removebg.png');
-    background-size: 780px;
+    background-size: 680px 450px;
     background-position: right bottom, left top;
     background-repeat: no-repeat;
     text-align: center;
@@ -66,6 +91,11 @@
     padding: 15px;
     height: 480px;
     margin-top: 30px;
+}
+@media only screen and (max-width: 800px){
+    .background{
+        background-size: 400px 300px;
+    }
 }
 .nav-logo {
     font-size: 42px;

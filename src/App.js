@@ -24,7 +24,7 @@ import { string } from 'yup';
 function App() { 
     const [Infor,setInfor]= useState([""])
     const [showAvatar, setShowAvatar] = useState("")
-    const [open, setOpen] = useState(true);
+    const [open, setOpen] = useState(false);
     const [saveInfo,setSaveInfo] = useState({mail2: "", pass2: ""})
     return (
         <div className='App'>

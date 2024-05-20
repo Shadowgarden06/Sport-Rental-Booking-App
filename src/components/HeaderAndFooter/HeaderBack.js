@@ -8,7 +8,7 @@ function HeaderBack(props) {
             <div className='discr'>
                 <h1 className='uppercase'>Game on.</h1>
                 <p className='uppercase-2 a'>Play any sport, right here!.</p>
-                <p className='text-uppercase fs-1'>Choose the dome!.</p>
+                <p className='text-uppercase done'>Choose the dome!.</p>
             </div>
         </div>
     );
