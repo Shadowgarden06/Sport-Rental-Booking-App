@@ -3,7 +3,7 @@ import './TimeTable.scss';
 function TimeTable(props) {
     return (
         <div className='parallax-content8'>
-            <div className='d-flex justify-content-around mt-27'>
+            <div className='timetable-basketball mt-27'>
                 <div className='timetable-box'>
                     <div className=''>
                         <span className='d-block fs-5 text-uppercase text-start'>
@@ -29,7 +29,7 @@ function TimeTable(props) {
                 </div>
 
                 <div>
-                    <div className='d-flex'>
+                    <div className='schedule-basketball'>
                         <div className='p-3'>
                             <div className='d-flex fs-13 bg-redbasket justify-content-around text-white p-2 rounded-top-2 text-uppercase'>
                                 <div className='border-end border-white fw-bold pe-3'>

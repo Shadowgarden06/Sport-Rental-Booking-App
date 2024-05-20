@@ -3,25 +3,25 @@ import './Principles.scss';
 
 function Principles(props) {
     return (
-        <div className='principles d-flex flex-column justify-content-center align-items-center'>
+        <div className='principles-basketball'>
             <div className='principles-club'>
-                <span className='d-block text-center text-uppercase fs-5'>BasketBall Club</span>
-                <span className='fs-48 text-uppercase'>
+                <span className='d-block text-uppercase fs-5'>BasketBall Club</span>
+                <span className='fs-48 text-uppercase d-block'>
                     Our <span className='fw-bold text-redbasket '>Principles</span>
                 </span>
             </div>
 
-            <div className='d-flex'>
+            <div className='our-principles'>
                 <div className='d-flex flex-column justify-content-center align-items-center p-4'>
                     <div className='principles-icon text-center text-white fs-1'>
                         <i class='fa-solid fa-basketball'></i>
                     </div>
 
-                    <div className='principle-box '>
+                    <div className='principle-box-basketball '>
                         <span className='d-block text-center text-uppercase fw-bold p-2'>
                             Proficiency
                         </span>
-                        <div className='fs-13 '>
+                        <div className='fs-13'>
                             Nanotechnology immersion along the information highway will close the
                             loop on focusing solely line.
                         </div>
@@ -33,7 +33,7 @@ function Principles(props) {
                         <i class='fa-solid fa-right-to-bracket'></i>
                     </div>
 
-                    <div className='principle-box '>
+                    <div className='principle-box-basketball '>
                         <span className='d-block text-center text-uppercase fw-bold p-2'>
                             Participation
                         </span>
@@ -49,7 +49,7 @@ function Principles(props) {
                         <i class='fa-solid fa-clipboard'></i>
                     </div>
 
-                    <div className='principle-box '>
+                    <div className='principle-box-basketball '>
                         <span className='d-block text-center text-uppercase fw-bold p-2'>
                             Lessons
                         </span>
@@ -65,7 +65,7 @@ function Principles(props) {
                         <i class='fa-solid fa-people-roof'></i>
                     </div>
 
-                    <div className='principle-box '>
+                    <div className='principle-box-basketball '>
                         <span className='d-block text-center text-uppercase fw-bold p-2'>
                             TeamWork
                         </span>

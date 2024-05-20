@@ -3,7 +3,7 @@ import './Activities.scss';
 
 function Activities(props) {
     return (
-        <div className='mx-9 my-5'>
+        <div className='basketball-contain my-5'>
             <h2 className='mx-3 mt-2 mb-3'>
                 <span className='d-block fs-5 text-uppercase'>Ryan Sport Club</span>
                 <span className='fs-48 text-uppercase'>
@@ -11,8 +11,8 @@ function Activities(props) {
                 </span>
             </h2>
 
-            <div className='d-flex justify-content-end'>
-                <div className='p-3 rounded-top-2'>
+            <div className='basketball-news'>
+                <div className='box-news p-3 rounded-top-2'>
                     <div className='position-relative'>
                         <img
                             src='https://oxigeno.bold-themes.com/basketball/wp-content/uploads/sites/6/2017/10/post_10-640x427.jpg'
@@ -43,7 +43,7 @@ function Activities(props) {
                     </div>
                 </div>
 
-                <div className='p-3 rounded-top-2'>
+                <div className=' box-news p-3 rounded-top-2'>
                     <div className='position-relative'>
                         <img
                             src='https://oxigeno.bold-themes.com/basketball/wp-content/uploads/sites/6/2017/10/post_09-640x427.jpg'
@@ -74,7 +74,7 @@ function Activities(props) {
                     </div>
                 </div>
 
-                <div className='p-3 rounded-top-2'>
+                <div className=' box-news p-3 rounded-top-2'>
                     <div className='position-relative'>
                         <img
                             src='https://oxigeno.bold-themes.com/basketball/wp-content/uploads/sites/6/2017/10/post_08-640x427.jpg'
@@ -105,7 +105,7 @@ function Activities(props) {
                     </div>
                 </div>
 
-                <div className='p-3 rounded-top-2'>
+                <div className=' box-news p-3 rounded-top-2'>
                     <div className='position-relative'>
                         <img
                             src='https://oxigeno.bold-themes.com/basketball/wp-content/uploads/sites/6/2017/10/post_07-640x427.jpg'

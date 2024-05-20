@@ -1,13 +1,3 @@
-@import "bootstrap/scss/functions";
-@import "bootstrap/scss/variables";
-@import "bootstrap/scss/variables-dark";
-@import "bootstrap/scss/maps";
-@import "bootstrap/scss/mixins";
-@import "bootstrap/scss/utilities";
-@import "bootstrap/scss/utilities/api";
-
-
-
 .fs-10 {
     font-size: 10px;
 }
@@ -77,24 +67,7 @@
 
 }
 
-.icon-circle2 {
-    top: 180px;
-    left: 100px;
-    border: 1px solid white;
-    padding: 10px;
-}
 
-.icon-circle-size1 {
-    width: 40px;
-    height: 40px;
-    padding: 8px 11px;
-}
-
-.icon-circle-special {
-    width: 40px;
-    height: 40px;
-    padding: 8px 14px;
-}
 
 .text-redbasket {
     color: #ff0000;
@@ -108,8 +81,111 @@
     background-color: #ff0000;
 }
 
-.professional1 {
-    position: absolute;
-    top: 32rem;
-    left: 13rem;
+
+
+
+
+
+/* Extral small devices(phones 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .professional1 {
+        position: absolute;
+        top: 35rem;
+        left: 0;
+    }
+
+    .activities-basketball {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 1rem 1rem;
+    }
+
+    .box-about1 {
+        width: 350px;
+        height: 371px;
+        place-items: center;
+    }
+
+    .icon-basketball {
+        top: 180px;
+        left: 9rem;
+        border: 1px solid white;
+        padding: 10px;
+    }
+
+    .icon-basketball-size1 {
+        width: 40px;
+        height: 40px;
+        padding: 8px 11px;
+    }
+
+    .icon-basketball-special {
+        width: 40px;
+        height: 40px;
+        padding: 8px 14px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1440px) {
+
+    .professional1 {
+        position: absolute;
+        top: 32rem;
+        padding: 3rem;
+    }
+
+    .activities-basketball {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 3rem;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1440px) {
+    .professional1 {
+        position: absolute;
+        top: 32rem;
+        left: 12rem;
+    }
+
+    .activities-basketball {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        padding: 3rem;
+    }
+
+    .box-about1 {
+        width: 250px;
+        height: 371px;
+        place-items: center;
+    }
+
+    .icon-basketball {
+        top: 180px;
+        left: 100px;
+        border: 1px solid white;
+        padding: 10px;
+    }
+
+    .icon-basketball-size1 {
+        width: 40px;
+        height: 40px;
+        padding: 8px 11px;
+    }
+
+    .icon-basketball-special {
+        width: 40px;
+        height: 40px;
+        padding: 8px 14px;
+    }
 }

@@ -26,14 +26,6 @@
     margin-top: 25rem;
 }
 
-.parallax-content8 {
-    padding: 50px;
-    text-align: center;
-    width: 100%;
-    max-height: 145rem;
-    background-image: url('https://oxigeno.bold-themes.com/soccer/wp-content/uploads/sites/3/2017/10/inner_grey_background.jpg');
-    background-size: cover;
-}
 
 .schedule-img {
     width: 107px;
@@ -48,9 +40,7 @@
     border-top-right-radius: 10px;
 }
 
-.timetable-box {
-    width: 580px;
-}
+
 
 .schedule-box {
     width: 70px;
@@ -74,4 +64,84 @@
 
 .bg-redbasket {
     background-color: #ff0000;
+}
+
+
+
+/* Extral small devices(phones 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .parallax-content8 {
+        padding: 50px;
+        text-align: center;
+        width: 100%;
+        max-height: 145rem;
+        background-image: url('https://oxigeno.bold-themes.com/soccer/wp-content/uploads/sites/3/2017/10/inner_grey_background.jpg');
+        background-size: cover;
+        margin-top: 25rem;
+    }
+
+    .timetable-basketball {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    .timetable-box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .schedule-basketball {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1440px) {
+    .parallax-content8 {
+        padding: 50px;
+        text-align: center;
+        width: 100%;
+        max-height: 145rem;
+        background-image: url('https://oxigeno.bold-themes.com/soccer/wp-content/uploads/sites/3/2017/10/inner_grey_background.jpg');
+        background-size: cover;
+        margin-top: 30rem;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1440px) {
+    .parallax-content8 {
+        padding: 50px;
+        text-align: center;
+        width: 100%;
+        max-height: 145rem;
+        background-image: url('https://oxigeno.bold-themes.com/soccer/wp-content/uploads/sites/3/2017/10/inner_grey_background.jpg');
+        background-size: cover;
+        margin-top: 0;
+    }
+
+    .timetable-basketball {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+
+    .timetable-box {
+        width: 580px;
+        margin-bottom: 0;
+    }
+
+    .schedule-basketball {
+        display: flex;
+        justify-content: space-around;
+    }
 }

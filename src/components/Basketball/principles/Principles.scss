@@ -1,9 +1,3 @@
-.principles {
-    background: #e5ebf0;
-    width: 1515px;
-    height: 700px;
-}
-
 .text-redbasket {
     color: #ff0000;
 }
@@ -16,13 +10,10 @@
     font-size: 48px;
 }
 
-.principles-club {
-    margin-top: 200px;
-    margin-bottom: 30px;
-}
 
-.principle-box {
-    width: 270px;
+
+.principle-box-basketball {
+    max-width: 270px;
     height: 195px;
 }
 
@@ -32,4 +23,58 @@
     height: 78px;
     place-content: center;
     border-radius: 50%;
+}
+
+
+/* Extral small devices(phones 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    .principles-basketball {
+        background: #e5ebf0;
+        width: 100%;
+        height: auto;
+
+    }
+
+    .principles-club {
+        margin-bottom: 30px;
+        padding-top: 30rem;
+        text-align: center;
+    }
+
+    .our-principles {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    .principles-basketball {
+        background: #e5ebf0;
+        width: 100%;
+        height: auto;
+
+    }
+
+    .principles-club {
+        padding-top: 15rem;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+
+    .our-principles {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+    }
 }

@@ -7,7 +7,7 @@ function PlayersBasketball(props) {
         <div className='position-relative'>
             <div className='bg-light-subtle'></div>
             <div className='d-flex flex-column  bg-primary bg-player1'>
-                <div className='d-flex flex-column justify-content-center align-items-center text-white box-player ms-21 p-5'>
+                <div className='player-testimonials text-white box-player'>
                     <span className=' d-block fs-48 text-uppercase text-center'>
                         Player <span className='fw-bold text-orange'>Testimonials</span>
                     </span>
@@ -26,8 +26,8 @@ function PlayersBasketball(props) {
                                 id='carousel-ms'
                                 data-bs-interval='3000'
                             >
-                                <div className='d-flex ms-8basket flex-column player-box-des'>
-                                    <div className='player-box-img my-3'>
+                                <div className='d-flex ms-8basket flex-column player-box-des1'>
+                                    <div className='player-img-basket my-3'>
                                         <img
                                             src='https://oxigeno.bold-themes.com/basketball/wp-content/uploads/sites/6/2017/10/team_member_03.jpg'
                                             alt=''
@@ -35,8 +35,8 @@ function PlayersBasketball(props) {
                                         />
                                     </div>
 
-                                    <div className='text-white text-center box-player-des'>
-                                        <h2 className='player-box-des my-3'>
+                                    <div className='text-white text-center box-player-des1'>
+                                        <h2 className='player-box-des1 my-3'>
                                             <span className='fs-13 d-block text-uppercase'>
                                                 CENTER
                                             </span>
@@ -45,7 +45,7 @@ function PlayersBasketball(props) {
                                             </span>
                                         </h2>
 
-                                        <p className='fs-15 player-box-des'>
+                                        <p className='fs-15 player-box-des1'>
                                             Podcasting operational change management inside of
                                             workflows to establish a framework. Taking seamless key
                                             performance indicators offline to maximise the long
@@ -57,8 +57,8 @@ function PlayersBasketball(props) {
                             </div>
 
                             <div class='carousel-item' id='carousel-ms' data-bs-interval='3000'>
-                                <div className='d-flex ms-8basket flex-column player-box-des'>
-                                    <div className='player-box-img my-3'>
+                                <div className='d-flex ms-8basket flex-column player-box-des1'>
+                                    <div className='player-img-basket my-3'>
                                         <img
                                             src='https://oxigeno.bold-themes.com/basketball/wp-content/uploads/sites/6/2017/10/team_member_09.jpg'
                                             alt=''
@@ -66,8 +66,8 @@ function PlayersBasketball(props) {
                                         />
                                     </div>
 
-                                    <div className='text-white text-center box-player-des'>
-                                        <h2 className='player-box-des my-3'>
+                                    <div className='text-white text-center box-player-des1'>
+                                        <h2 className='player-box-des1 my-3'>
                                             <span className='fs-13 d-block text-uppercase'>
                                                 Point Guard
                                             </span>
@@ -76,7 +76,7 @@ function PlayersBasketball(props) {
                                             </span>
                                         </h2>
 
-                                        <p className='fs-15 player-box-des'>
+                                        <p className='fs-15 player-box-des1'>
                                             Capitalize on low hanging fruit to identify a ballpark
                                             value added activity to beta test. Override the digital
                                             divide with additional clickthroughs from DevOps.
@@ -87,8 +87,8 @@ function PlayersBasketball(props) {
                             </div>
 
                             <div class='carousel-item' id='carousel-ms' data-bs-interval='3000'>
-                                <div className='d-flex ms-8basket flex-column player-box-des'>
-                                    <div className='player-box-img my-3'>
+                                <div className='d-flex ms-8basket flex-column player-box-des1'>
+                                    <div className='player-img-basket my-3'>
                                         <img
                                             src='https://oxigeno.bold-themes.com/basketball/wp-content/uploads/sites/6/2017/10/team_member_12.jpg'
                                             alt=''
@@ -96,8 +96,8 @@ function PlayersBasketball(props) {
                                         />
                                     </div>
 
-                                    <div className='text-white text-center box-player-des'>
-                                        <h2 className='player-box-des my-3'>
+                                    <div className='text-white text-center box-player-des1'>
+                                        <h2 className='player-box-des1 my-3'>
                                             <span className='fs-13 d-block text-uppercase'>
                                                 MVP
                                             </span>
@@ -106,7 +106,7 @@ function PlayersBasketball(props) {
                                             </span>
                                         </h2>
 
-                                        <p className='fs-15 player-box-des'>
+                                        <p className='fs-15 player-box-des1'>
                                             Organically grow the holistic world view of disruptive
                                             innovation via workplace diversity and empowerment.
                                             Bring to the table win-win survival strategies to ensure
