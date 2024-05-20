@@ -6,12 +6,6 @@
 @import "bootstrap/scss/utilities";
 @import "bootstrap/scss/utilities/api";
 
-.parallax7 {
-    position: relative;
-    height: 75vh;
-    overflow: hidden;
-}
-
 .w-schedule2 {
     width: 620px;
 }
@@ -36,25 +30,13 @@
     margin-left: 2rem;
 }
 
-.parallax-bg7 {
-    position: absolute;
-    top: 0;
-    left: 0;
+.parallax-basketball {
     width: 100%;
-    height: 630px;
+    height: 600px;
     background-image: url('https://oxigeno.bold-themes.com/basketball/wp-content/uploads/sites/6/2017/10/inner-hero-about-us.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    // transform: translateY(-50%);
-}
-
-.parallax-content7 {
-    position: relative;
-    z-index: 1;
-    margin-top: 200px;
-    padding: 50px;
-    // text-align: center;
 }
 
 .schedule-img {
@@ -85,8 +67,8 @@
     margin-bottom: 300px;
 }
 
-.mt-100 {
-    margin-top: 100px;
+.mt-50 {
+    margin-top: 50px;
 }
 
 .bottom-50 {
@@ -112,3 +94,15 @@
 .bot-40 {
     bottom: 40%;
 }
+
+/* Extral small devices(phones 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}

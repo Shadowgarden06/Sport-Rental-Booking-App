@@ -11,12 +11,18 @@ import Footer from '../components/HeaderAndFooter/Footer';
 import Header from '../components/HeaderAndFooter/Header';
 import ProfessionalSkill from '../components/BaseBall/ProfessionalSkill/ProfessionalSkill';
 import Login from './SignUp&&Login/Login';
+import RentalPrice from '../components/BaseBall/RentalPrice/RentalPrice';
 
 function BaseBall(props) {
     const [baseballClubs, setBaseballClubs] = useState([]);
     const [baseballPlayers, setBaseballPlayers] = useState([]);
     const [open, setOpen] = useState(false);
-    let {showAvatar,setShowAvatar,saveInfo } = props
+    let { showAvatar, setShowAvatar, saveInfo } = props;
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     useEffect(() => {
         fetch('./data/baseball/baseballClub.json')
             .then((res) => res.json())
@@ -31,17 +37,29 @@ function BaseBall(props) {
 
     return (
         <div className='Baseball position-relative'>
-            <Login saveInfo={saveInfo} setOpen = {setOpen} open = {open} showAvatar={showAvatar} setShowAvatar={setShowAvatar}/>
-            <Header open={open} setOpen={setOpen} showAvatar={showAvatar} setShowAvatar={setShowAvatar}/>
+            <Login
+                saveInfo={saveInfo}
+                setOpen={setOpen}
+                open={open}
+                showAvatar={showAvatar}
+                setShowAvatar={setShowAvatar}
+            />
+            <Header
+                open={open}
+                setOpen={setOpen}
+                showAvatar={showAvatar}
+                setShowAvatar={setShowAvatar}
+            />
             <CarouselComponent />
-            <GameReport />
+            {/* <GameReport /> */}
             <TimeTable />
             <OurAwards baseballClubs={baseballClubs} />
-            <AboutClub />
+            {/* <AboutClub /> */}
             <Principles />
             <PlayersBasketball baseballPlayers={baseballPlayers} />
             <Activities />
-            <ProfessionalSkill />
+            {/* <ProfessionalSkill /> */}
+            <RentalPrice />
             <Footer />
         </div>
     );

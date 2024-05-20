@@ -3,22 +3,24 @@ import './ProfessionalSkill.scss';
 
 function ProfessionalSkill(props) {
     return (
-        <div className='container z-1 d-grid bg-light position-absolute professional rp-shadow rounded-end-4'>
+        <div className='d-grid bg-light position-absolute professional rp-shadow rounded-end-4'>
             <div className='ms-11'>
                 <div className='d-flex justify-content-evenly ryan-number'>
                     <div>
-                        <span className='d-block text-uppercase'>Professional Stuff</span>
-                        <span className='fs-48 text-uppercase '>
+                        <span className='d-block text-uppercase text-start'>
+                            Professional Stuff
+                        </span>
+                        <span className='d-block fs-48 text-uppercase text-start'>
                             Ryan <span className='text-primary fw-bold'>in number</span>
                         </span>
-                        <div>
+                        <div className='text-start'>
                             The Oxygen FC provides children the opportunity to learn and develop
                             soccer game skills.
                         </div>
                     </div>
                 </div>
 
-                <div className='d-flex'>
+                <div className='d-flex text-start'>
                     <div className=''>
                         <div className='d-flex'>
                             <span className='p-2 mt-4'>
@@ -65,7 +67,7 @@ function ProfessionalSkill(props) {
                 </div>
             </div>
 
-            <div className='d-flex ms-11 mt-5'>
+            <div className='d-flex ms-11 mt-5 text-start'>
                 <div>
                     <div className='d-flex justify-content-evenly ryan-number1'>
                         <div>

@@ -3,8 +3,7 @@ import './CarouselBasketball.scss';
 
 function CarouselComponent(props) {
     return (
-        <div className='parallax20' id='parallax20'>
-            <div className='parallax-bg20'></div>
+        <div className='w-100'>
             <div className='parallax-content20 ms-5'>
                 <div className='text-start position-absolute p-4'>
                     <span className='fs-3 d-block text-uppercase text-start text-black ms-5'>

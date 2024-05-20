@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './CarouselBasketball.scss';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import GameReport from '../gameReport/GameReport';
 
 function CarouselComponent(props) {
     const [basketballClubs, setBasketballClubs] = useState([]);
@@ -31,46 +32,42 @@ function CarouselComponent(props) {
         }
     };
     return (
-        <div className='parallax7' id='parallax7'>
-            <div className='parallax-bg7'></div>
-            <div className='parallax-content7'>
-                <div className='text-center text-light position-absolute bottom-50 start-25 p-4'>
-                    <span className='fs-3 text-uppercase text-white'>BasketBall Club</span>
-                    <h1 className='fs-78 lh-1 my-2'>
-                        <span className='fw-bold text-orange text-uppercase'>
-                            Believe <span className='text-white'>&</span> Archive
-                        </span>
-                    </h1>
-                </div>
+        <div className='parallax-basketball position-relative'>
+            <div className='text-center text-light p-5'>
+                <span className='fs-3 text-uppercase text-white'>BasketBall Club</span>
+                <h1 className='fs-78 lh-1 my-2'>
+                    <span className='fw-bold text-orange text-uppercase'>
+                        Believe <span className='text-white'>&</span> Archive
+                    </span>
+                </h1>
+            </div>
 
-                <div className='mt-100'>
-                    <Carousel responsive={responsive}>
-                        {basketballClubs.map((item, index) => {
-                            return (
-                                <div key={index} className='d-flex schedule-mar1'>
-                                    <div className='d-flex p-1'>
-                                        <div>
-                                            <img className='schedule-img' src={item.image} alt='' />
-                                        </div>
+            <div className='mt-50'>
+                <Carousel responsive={responsive}>
+                    {basketballClubs.map((item, index) => {
+                        return (
+                            <div key={index} className='d-flex schedule-mar1'>
+                                <div className='d-flex p-1'>
+                                    <div>
+                                        <img className='schedule-img' src={item.image} alt='' />
+                                    </div>
 
-                                        <div className='p-3 text-white'>
-                                            <span className='text-uppercase fs-13 d-block'>
-                                                {item.stadium}
-                                            </span>
-                                            <span className='d-block text-uppercase fw-bold text-orange'>
-                                                {item.name}
-                                            </span>
-                                            <span className='text-uppercase fs-13'>
-                                                {item.date}
-                                            </span>
-                                        </div>
+                                    <div className='p-3 text-white'>
+                                        <span className='text-uppercase fs-13 d-block'>
+                                            {item.stadium}
+                                        </span>
+                                        <span className='d-block text-uppercase fw-bold text-orange'>
+                                            {item.name}
+                                        </span>
+                                        <span className='text-uppercase fs-13'>{item.date}</span>
                                     </div>
                                 </div>
-                            );
-                        })}
-                    </Carousel>
-                </div>
+                            </div>
+                        );
+                    })}
+                </Carousel>
             </div>
+            <GameReport />
         </div>
     );
 }

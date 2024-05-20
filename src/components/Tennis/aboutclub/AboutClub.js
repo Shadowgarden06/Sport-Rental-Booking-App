@@ -3,8 +3,8 @@ import './AboutClub.scss';
 
 function AboutClub(props) {
     return (
-        <div className='position-relative'>
-            <div className='container z-1 d-grid bg-light position-absolute bottom-34 rp-shadow rounded-end-4'>
+        <div className='position-absolute bottom-34 about-tennis'>
+            <div className='d-grid bg-light rp-shadow rounded-end-4'>
                 <div className='row'>
                     <div className='col p-8 '>
                         <div className='w-580'>
@@ -35,7 +35,7 @@ function AboutClub(props) {
                             </p>
 
                             <div className='d-flex text-start'>
-                                <button className='btn btn-primary bg-green fs-10 about-btn fw-bold text-uppercase me-4 p-2'>
+                                <button className='btn text-white bg-green fs-10 about-btn fw-bold text-uppercase me-4 p-2'>
                                     Join The Club
                                 </button>
                                 <button className='btn btn-white fs-10 about-btn fw-bold text-uppercase p-2 text-green border-green'>

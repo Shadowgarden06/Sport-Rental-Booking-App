@@ -1,21 +1,13 @@
-.picture {
-    background-image: url('../img/logo192.png') no-repeat center fixed;
-    background-position: right bottom, left top;
-    background-repeat: no-repeat, repeat;
-    padding: 15px;
-}
-.nav-header {
+.nav-header1 {
     text-decoration: none;
 }
-.nav-header:hover {
+.nav-header1:hover {
+    cursor: pointer;
     text-decoration: none;
-    color: aqua;
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
 }
 
-.nav-login:hover {
-    text-decoration: none;
-    background-color: rgb(216, 154, 21);
-}
 .background1 {
     height: 100%;
     width: 10%;
@@ -24,11 +16,15 @@
 
 .background1:hover {
     cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
 }
 
 .home-name:hover {
     cursor: pointer;
     text-decoration: none;
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
 }
 
 .background2 {
@@ -80,6 +76,12 @@
     justify-content: center;
     margin-top: 100px;
 }
+
+.text-headerback {
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+    font-weight: bold;
+}
 .background {
     background-image: url('../img/messi-inter-miami-sporting-kc2-removebg-preview.png'),
         url('../img/nynnzoeryrhzwnghbtkk-removebg.png');
@@ -108,19 +110,29 @@
     font-size: 25px;
     gap: 45px;
 }
+
 .nav-login {
     text-decoration: none;
     border-radius: 50px;
+    /* background-color: aqua; */
+    padding: 20px 30px;
+}
+.nav-login:hover {
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 50px;
     background-color: aqua;
     padding: 20px 30px;
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
 }
 .footer {
     background-color: rgb(234, 230, 226);
     width: 100%;
-    padding: auto;
+    /* padding: auto; */
 }
 .row-h {
-    margin-left: 250px;
+    margin-left: 10rem !important;
     padding-top: 100px;
 }
 .end {
@@ -132,4 +144,72 @@ a {
 }
 a:hover {
     text-decoration: underline;
+}
+
+.footer-text {
+    text-decoration: none;
+}
+.footer-text:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.box-footer {
+    max-width: 75rem;
+}
+
+.w-text-footer {
+    width: 20rem;
+}
+.thuanheader{
+    display: none;
+}
+@media (max-width: 700px) {
+    .thuanheader{
+        display: block;
+    }
+    .nav-item {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+        font-size: 30px;
+        cursor: pointer;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        z-index: 1001;
+    }
+
+    .menu-popup {
+        display: none;
+        position: absolute;
+        top: 40px;
+        right: 10px;
+        background-color: white;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        z-index: 1000;
+    }
+
+    .menu-popup.active {
+        display: block;
+    }
+
+    .menu-popup a {
+        display: block;
+        padding: 10px 20px;
+        color: black;
+        text-decoration: none;
+    }
+
+    .menu-popup a:hover {
+        background-color: #f0f0f0;
+    }
+    .background1{
+        width: 60px;
+        height: 60px;
+    }
 }

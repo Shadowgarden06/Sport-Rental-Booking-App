@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Header from '../components/HeaderAndFooter/Header';
 import Bar from '../components/HomePageComponent/Bar';
 import Item from '../components/HomePageComponent/Item';
@@ -10,18 +10,25 @@ import HeaderBack from '../components/HeaderAndFooter/HeaderBack';
 import Login from './SignUp&&Login/Login';
 
 function HomePage(props) {
-    
     const [count, setCount] = useState(0);
-    const {showAvatar,setShowAvatar,setOpen,open,saveInfo} =props
-    console.log(saveInfo);
+    const { showAvatar, setShowAvatar, setOpen, open, saveInfo } = props;
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     return (
         <div>
-            <Login saveInfo={saveInfo} setOpen = {setOpen} open = {open} showAvatar={showAvatar} setShowAvatar={setShowAvatar}/>
-            <Header setOpen = {setOpen} showAvatar={showAvatar} setShowAvatar={setShowAvatar}/>
+            <Login
+                saveInfo={saveInfo}
+                setOpen={setOpen}
+                open={open}
+                showAvatar={showAvatar}
+                setShowAvatar={setShowAvatar}
+            />
+            <Header setOpen={setOpen} showAvatar={showAvatar} setShowAvatar={setShowAvatar} />
             <HeaderBack />
-            <Bar/>
-            <Item/>
+            <Bar />
+            <Item />
             <h1 className='text-center p-3'>GET MOTIVATED. JOIN A CLUB.</h1>
             <Image count={count}></Image>
             <ChangeImg count={count} setCount={setCount}></ChangeImg>

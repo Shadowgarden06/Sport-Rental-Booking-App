@@ -4,7 +4,7 @@ import './Principles.scss';
 function Principles(props) {
     return (
         <div className='principles1 d-flex flex-column justify-content-center align-items-center'>
-            <div className='principles-club1'>
+            <div className='principles-club1 '>
                 <span className='d-block text-center text-uppercase fs-5'>BaseBall Club</span>
                 <span className='d-block text-center fs-48 text-uppercase'>
                     Our <span className='fw-bold text-baseball '>Principles</span>

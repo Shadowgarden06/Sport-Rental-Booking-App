@@ -1,9 +1,10 @@
 import React from 'react';
 import './PlayersBasketball.scss';
+import ProfessionalSkill from '../ProfessionalSkill/ProfessionalSkill';
 
 function PlayersBasketball(props) {
     return (
-        <div>
+        <div className='position-relative'>
             <div className='bg-light-subtle'></div>
             <div className='d-flex flex-column  bg-primary bg-player1'>
                 <div className='d-flex flex-column justify-content-center align-items-center text-white box-player ms-21 p-5'>
@@ -137,6 +138,8 @@ function PlayersBasketball(props) {
                     </div>
                 </div>
             </div>
+
+            <ProfessionalSkill />
         </div>
     );
 }

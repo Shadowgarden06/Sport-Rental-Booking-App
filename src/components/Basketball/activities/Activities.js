@@ -3,9 +3,9 @@ import './Activities.scss';
 
 function Activities(props) {
     return (
-        <div className='mx-9 mb-5'>
+        <div className='mx-9 my-5'>
             <h2 className='mx-3 mt-2 mb-3'>
-                <span className='d-block fs-16 text-uppercase'>Ryan Sport Club</span>
+                <span className='d-block fs-5 text-uppercase'>Ryan Sport Club</span>
                 <span className='fs-48 text-uppercase'>
                     Latest <span className='text-redbasket fw-bold'>News</span>
                 </span>
