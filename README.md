@@ -1,3 +1,31 @@
+# 🏀 RYAN SPORTS CLUB – Sport Rental Booking App
+
+## 📌 Overview
+RYAN SPORTS CLUB is a sport rental booking platform that allows users to browse facilities, book courts, and manage reservations online.  
+Developed as part of the E-Project at Aptech, this web application focuses on user-friendly UI and efficient booking management.
+
+## 🛠 Technologies Used
+- **Frontend**: React.js, Bootstrap
+- **Backend**: Node.js, Express.js
+- **Database**: MySQL
+- **Other Tools**: GitHub, Figma, MS Word
+
+## 👨‍💻 My Role (Trần Công Khôi)
+- Developed **About Us** and **Feedback** pages
+- Designed system flowchart for the project
+- Wrote complete project documentation
+- Collaborated with team on UI/UX improvements
+
+## 📷 Screenshots
+*(Add screenshots here)*
+
+## 🚀 How to Run
+```bash
+git clone https://github.com/Shadowgarden06/Sport-Rental-Booking-App.git
+cd Sport-Rental-Booking-App
+npm install
+npm start
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
